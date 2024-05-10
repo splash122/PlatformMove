@@ -1,0 +1,5 @@
+/Users/splash/PlatformMove/.utmp/RelWithDebInfo/50g5i1h1/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/splash/PlatformMove/.utmp/RelWithDebInfo/50g5i1h1/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/splash/PlatformMove/.utmp/RelWithDebInfo/50g5i1h1/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/splash/PlatformMove/.utmp/RelWithDebInfo/50g5i1h1/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/splash/PlatformMove/.utmp/RelWithDebInfo/50g5i1h1/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
