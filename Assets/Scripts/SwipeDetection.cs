@@ -12,13 +12,22 @@ public class SwipeDetection : MonoBehaviour
     [SerializeField] private float swipeResistance = 100;
     private Vector2 initialPos;
     private Vector2 currentPos => position.ReadValue<Vector2>();
-    private void Awake () 
+    private void OnEnable () 
     {
         position.Enable();
         press.Enable();	
         press.performed += _ => { initialPos = currentPos; };
         press.canceled += _ => DetectSwipe();
         instance = this;
+    }
+    private void OnDisable () 
+    {
+        
+        press.performed -= _ => { initialPos = currentPos; };
+        press.canceled -= _ => DetectSwipe();
+        instance = this;
+        position.Disable();
+        press.Disable();	
     }
 
     private void DetectSwipe () 

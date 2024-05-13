@@ -37,7 +37,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
-    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
@@ -144,7 +143,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17964}
+      Script: {instanceID: 17962}
     - Class: 114
       Script: {instanceID: 25962}
     - Class: 114
@@ -1477,7 +1476,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: d294785267b854a066b9838cc1446a52
+      Hash: 4d668e49a8a8377739844644f952fdcc
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -1659,4 +1658,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/FirstScreen.unity
   - Assets/Scenes/Game.unity
-  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform20.apk
+  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform26.apk

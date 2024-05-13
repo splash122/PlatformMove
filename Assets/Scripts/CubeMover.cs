@@ -33,6 +33,8 @@ public class CubeMover : MonoBehaviour
         for (int i = 0; i < 1; i++)
         {
             yield return null;
+            print(x_width);
+            print(z_width);
             //newToGo = new Vector3(direction.y, 0, -direction.x);
             //print("newVector");
             //print(newToGo);

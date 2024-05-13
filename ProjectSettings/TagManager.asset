@@ -12,6 +12,11 @@ TagManager:
   - Floor1
   - Back
   - HouseMain
+  - BoundaryLeft
+  - BoundaryFar
+  - BoundaryNear
+  - BoundaryRight
+  - Restart
   layers:
   - Default
   - TransparentFX
@@ -20,7 +25,7 @@ TagManager:
   - Water
   - UI
   - Camera
-  - 
+  - Thing
   - 
   - 
   - 
@@ -48,4 +53,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Coin
+    uniqueID: 1824218447
+    locked: 0
+  - name: Thing
+    uniqueID: 1395251623
     locked: 0

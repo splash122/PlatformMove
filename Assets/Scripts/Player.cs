@@ -1,138 +1,210 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public Rigidbody player;
-    public Rigidbody thing;
-    public CubeMover floor;
-    private Vector3 scale; 
-    private Vector3 old_pos;
+    private Rigidbody player;
+    private Rigidbody thing;
+    private CubeMover floor;
+    private Vector3 scale;
     public InputAction move;
     private Vector2 newToGo;
     public Transform TargetVertical;
-    public Transform TargetHorizontal;
     public float angle;
     public BackGround backGround;
-    
+    public Vector3 playerToGo;
+    public float range;
+    private bool isSwipedLeft;
+    private bool isSwipedRight;
+    private bool isSwipedUp;
+    private bool isSwipedDown;
+    private Vector3 oldTrans;
+    private GameObject restart;
+    public Player playGameObj;
 
-    private void Awake()
+
+    private void OnEnable()
     {
+        print("enabling");
+        
         move.Enable();
         move.performed += context => { StartCoroutine(Move(context.ReadValue<Vector2>())); };
         SwipeDetection.instance.swipePerformed += context => { StartCoroutine(Move(context)); };
     }
+    private void OnDisable()
+    {
+        print("disabling");
+        move.performed -= context => { StartCoroutine(Move(context.ReadValue<Vector2>())); };
+        SwipeDetection.instance.swipePerformed -= context => { StartCoroutine(Move(context)); };   
+        move.Disable();
+    }
+
     void Start()
     {
-        thing = GameObject.FindWithTag("Thing").GetComponent<Rigidbody>();
+        playGameObj = GetComponent<Player>();
         player = GetComponent<Rigidbody>();
-        floor = GameObject.FindWithTag("Floor").GetComponent<CubeMover>();
+        restart = GameObject.FindWithTag("Restart");
+        restart.SetActive(false);
+        //thing = GameObject.FindWithTag("Thing").GetComponent<Rigibody>();
     }
+
+    void FixedUpdate(){ 
+        // Bit shift the index of the layer (8) to get a bit mask
+        int layerMask = 1 << 7;
+
+        // This would cast rays only against colliders in layer 8.
+        // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
+        layerMask = ~layerMask;
+
+        RaycastHit hit;
+        // Does the ray intersect any objects excluding the player layer
+        
+        if (isSwipedLeft)
+        {
+            print("before raycastLeft");
+          if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward * 2), out hit,
+                        2f,
+                        layerMask))
+          { 
+              print("It's draw ray");
+              Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward * 2), Color.blue,5);
+              Debug.Log("Did Hit");
+              {
+                  if (hit.collider.tag == "BoundaryLeft")
+                  {
+                      print("It's BoundaryLeft");
+                      transform.position = new Vector3(-5,oldTrans.y,oldTrans.z);
+                  }
+              }
+          }
+        }
+        isSwipedLeft = false;
+        
+        if (isSwipedRight) 
+        {
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back * 2), out hit,
+                    2f,
+                    layerMask)) 
+            {
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back * 2), Color.green,5);
+                Debug.Log("Did Hit");
+                {
+                    if (hit.collider.tag == "BoundaryRight")
+                    {
+                        print("It's BoundaryRight");
+                        transform.position = new Vector3(5,oldTrans.y,oldTrans.z);
+                    }
+                }
+            }
+        }
+        isSwipedRight = false;
+
+        if (isSwipedUp)
+        {
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right * 2), out hit,
+                    2f,
+                    layerMask))
+            {
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right * 2), Color.red, 5);
+                Debug.Log("Did Hit");
+                {
+                    if (hit.collider.tag == "BoundaryFar")
+                    {
+                        print("It's BoundaryFar");
+                        transform.position = new Vector3(oldTrans.x, oldTrans.y, 5);
+                    }
+                }
+            }
+        }
+        isSwipedUp = false;
+
+        if (isSwipedDown){
+            {
+                
+                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left * 2), out hit,
+                        2f,
+                        layerMask))
+                {
+                    Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.left * 2), Color.yellow,5);
+                    Debug.Log("Did Hit");
+                    {
+                        if (hit.collider.tag == "BoundaryNear")
+                        {
+                            print("It's BoundaryNear");
+                            transform.position = new Vector3(oldTrans.x,oldTrans.y,-5);
+                        }
+                    }
+                }
+            }
+        }
+        isSwipedDown = false;
+    }
+    
+
     public IEnumerator Move(Vector2 direction)
     {
+        
         for (int i = 0; i < 1; i++)
         {
             yield return null;
-            //print("Direction");
-            //Debug.Log(direction);
-            //Player move
-            transform.position = new Vector3(transform.position.x+direction.x/5, 1, transform.position.z+direction.y/5);
+            oldTrans = new Vector3(transform.position.x,transform.position.y,transform.position.z);
+            playerToGo = new Vector3(transform.position.x + direction.x / 5, 1f, transform.position.z + direction.y / 5);
+            player.transform.position = playerToGo;
             newToGo = new Vector3(-direction.y, 0, -direction.x);
             //Camera move
-            if (direction.y != 0)
-                print("Y");
+            if (direction.y > 0)
             {
-                Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
-                if (direction.y > 0)
+                print("YUp");
+                isSwipedUp = true;
+                //Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
+            }
+            if (direction.y < 0)
+            {
+                print("YDown");
+                isSwipedDown = true;
+                print("CameraY");
+                //Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
+            }
+            if (direction.x < 0)
+            {
+                print("DirectionXLeft");
+                isSwipedLeft = true;
+                if (transform.position.x < 0)
                 {
-                    //thing.position = Vector3.MoveTowards(transform.position, new Vector3(0,0,6), 1f);
+                    //Camera.main.transform.Rotate(0, 0, -angle);
+                    print("CameraX");
+                    Physics.gravity = new Vector3(-3, 0, 0);
                 }
-                if (direction.y < 0)
+            }
+            else if (direction.x > 0)
+            {
+                print("DirectionXRight");
+                isSwipedRight = true;
+                if (transform.position.x > 0)
                 {
-                    //thing.position = Vector3.MoveTowards(transform.position, new Vector3(0,0,-6), 1f);
+                    //Camera.main.transform.Rotate(0, 0, angle);
+                    print("CameraX");
+                    Physics.gravity = new Vector3(3, 0, 0);
                 }
-            }
-            if(direction.x < 0 && transform.position.x<0)
-            {
-                print("X");
-                Camera.main.transform.Rotate(0,0,-angle);
-                Physics.gravity = new Vector3(-3, 0, 0);
-            }
-            else if(direction.x > 0 && transform.position.x>0)
-            {
-                print("X");
-                Camera.main.transform.Rotate(0,0,angle);
-                Physics.gravity = new Vector3(3, 0, 0);
-                //thing.position = Vector3.MoveTowards(transform.position, Vector3.right, 1f);
-            }
 
-
-
-            backGround.transform.rotation = Camera.main.transform.rotation;
-            /*if (transform.position.x < 0)
-            {
-                //newToGo = new Vector3(direction.y, 0, -direction.x);
-                //print("newVector");
-                //print(newToGo);
-                //Camera.main.transform.RotateAround(Target.position, newToGo.normalized, angle);
-                Camera.main.transform.rotation = Quaternion.Euler(new Vector3(Camera.main.transform.rotation.x,Camera.main.transform.rotation.y,Camera.main.transform.rotation.z+5));
                 backGround.transform.rotation = Camera.main.transform.rotation;
-                print("rotation camera lowX");
-                print(Camera.main.transform.rotation);
-                print(backGround.transform.rotation);
             }
-            else if(transform.position.x > 0)
-            {
-                Camera.main.transform.rotation = Quaternion.Euler(new Vector3(Camera.main.transform.rotation.x,Camera.main.transform.rotation.y,Camera.main.transform.rotation.z-5));
-                backGround.transform.rotation = Camera.main.transform.rotation;
-                print("rotation camera bigX");
-                print(Camera.main.transform.rotation);
-            }
-            if (transform.position.z < 0)
-            {
-                Camera.main.transform.rotation = Quaternion.Euler(new Vector3(Camera.main.transform.rotation.x+5,Camera.main.transform.rotation.y,Camera.main.transform.rotation.z));
-                backGround.transform.rotation = Camera.main.transform.rotation;
-                print("rotation camera lowZ");
-                print(Camera.main.transform.rotation);
-            }
-            else if (transform.position.z > 0)
-            {
-                Camera.main.transform.rotation = Quaternion.Euler(new Vector3(Camera.main.transform.rotation.x-5,Camera.main.transform.rotation.y,Camera.main.transform.rotation.z));
-                backGround.transform.rotation = Camera.main.transform.rotation;
-                print("rotation camera bigZ");
-                print(Camera.main.transform.rotation);
-            }*/
-            /*
-            print("----corners-----");
-            print(CubeMover.GetCorner(GameObject.FindWithTag("Floor"),CubeMover.Corner.TopLeft));
-            print(CubeMover.GetCorner(GameObject.FindWithTag("Floor"),CubeMover.Corner.TopRight));
-            print(CubeMover.GetCorner(GameObject.FindWithTag("Floor"),CubeMover.Corner.BottomLeft));
-            print(CubeMover.GetCorner(GameObject.FindWithTag("Floor"),CubeMover.Corner.BottomRight));
-            print("-----end corners-----");
-            */
         }
-    }
-
-    void Update()
-    {
-        //player.transform.rotation = GameObject.FindWithTag("Floor").transform.rotation;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "HouseMain")
         {
-            SceneManager.LoadScene("FirstScreen");
+            print("collisionHappened");
+            restart.SetActive(true);
         }
-
         if (collision.gameObject.tag == "Thing")
         {
-            SceneManager.LoadScene("FirstScreen");
+            print("collisionHappened");
+            restart.SetActive(true);
         }
     }
 
@@ -144,4 +216,6 @@ public class Player : MonoBehaviour
             CoinsText.coinsCount += 1;
         }
     }
+    
+    
 }
