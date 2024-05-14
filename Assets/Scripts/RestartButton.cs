@@ -10,6 +10,6 @@ public class RestartButton : MonoBehaviour
     public void Restart()
     {
         CoinsText.coinsCount = 0;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Game");
     }
 }

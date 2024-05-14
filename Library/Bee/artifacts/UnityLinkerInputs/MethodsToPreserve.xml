@@ -8,6 +8,8 @@
 		</type>
 		<type fullname="RestartButton">
 			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
 		</type>
 		<type fullname="ResumeButton">
 			<method name="Resume"/>

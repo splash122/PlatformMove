@@ -736,6 +736,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]

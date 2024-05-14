@@ -124,8 +124,14 @@ ScriptsOnlyBuild:
     fullTypeName: RestartButton
     methodName: Restart
   - assembly: Assembly-CSharp
+    fullTypeName: RestartButton
+    methodName: Restart
+  - assembly: Assembly-CSharp
     fullTypeName: ResumeButton
     methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: RestartButton
+    methodName: Restart
   sceneClasses:
     Assets/Scenes/2Level.unity:
     - Class: 1
@@ -157,6 +163,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 28020}
     - Class: 114
+      Script: {instanceID: 28254}
+    - Class: 114
+      Script: {instanceID: 28924}
+    - Class: 114
       Script: {instanceID: 29840}
     - Class: 114
       Script: {instanceID: 30778}
@@ -167,6 +177,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -1750,4 +1762,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/FirstScreen.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/2Level.unity
-  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform32.apk
+  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform34.apk

@@ -207,6 +207,7 @@ public class Player : MonoBehaviour
             {
                 print(CoinsText.coinsCount);
                 print(CoinsText.neededCount);
+                GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
                 resume.SetActive(true);
             }
             else if (CoinsText.coinsCount >= CoinsText.neededCount)
@@ -225,8 +226,8 @@ public class Player : MonoBehaviour
         {
             print("collisionHappened");
             restart.SetActive(true);
-            Destroy(GameObject.FindWithTag("Thing"));
-            Destroy(GameObject.FindWithTag("Player"));
+            GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = true;
+            GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             Physics.gravity = new Vector3(0, -20, 0);
         }
     }
