@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     private bool isSwipedDown;
     private Vector3 oldTrans;
     private GameObject restart;
+    private GameObject resume;
     public Player playGameObj;
 
 
@@ -46,7 +47,9 @@ public class Player : MonoBehaviour
         playGameObj = GetComponent<Player>();
         player = GetComponent<Rigidbody>();
         restart = GameObject.FindWithTag("Restart");
+        resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
         restart.SetActive(false);
+        resume.SetActive(false);
         //thing = GameObject.FindWithTag("Thing").GetComponent<Rigibody>();
     }
 
@@ -200,7 +203,23 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "HouseMain")
         {
             print("collisionHappened");
-            restart.SetActive(true);
+            if (CoinsText.coinsCount < CoinsText.neededCount)
+            {
+                print(CoinsText.coinsCount);
+                print(CoinsText.neededCount);
+                resume.SetActive(true);
+            }
+            else if (CoinsText.coinsCount == CoinsText.neededCount)
+            {
+                print(CoinsText.coinsCount);
+                print(CoinsText.neededCount);
+                SceneManager.LoadScene("2Level");
+            }
+            else
+            {
+                print(CoinsText.coinsCount);
+                print(CoinsText.neededCount);
+            }
         }
         if (collision.gameObject.tag == "Thing")
         {
