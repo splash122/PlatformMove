@@ -14,6 +14,7 @@ public class SwipeDetection : MonoBehaviour
     private Vector2 currentPos => position.ReadValue<Vector2>();
     private void OnEnable () 
     {
+        print("enabling 2swipe script");
         position.Enable();
         press.Enable();	
         press.performed += _ => { initialPos = currentPos; };
@@ -22,7 +23,7 @@ public class SwipeDetection : MonoBehaviour
     }
     private void OnDisable () 
     {
-        
+        print("disabling 2swipe script");
         press.performed -= _ => { initialPos = currentPos; };
         press.canceled -= _ => DetectSwipe();
         instance = this;

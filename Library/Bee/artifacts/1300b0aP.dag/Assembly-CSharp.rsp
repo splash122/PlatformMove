@@ -335,6 +335,7 @@
 "Assets/Scripts/PlayButton.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerMove.cs"
+"Assets/Scripts/RestartButton.cs"
 "Assets/Scripts/SwipeDetection.cs"
 "Assets/Scripts/ThingsBehavior.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

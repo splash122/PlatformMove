@@ -186,6 +186,7 @@ public class Player : MonoBehaviour
                 {
                     //Camera.main.transform.Rotate(0, 0, angle);
                     print("CameraX");
+                    print("Gravity enabled");
                     Physics.gravity = new Vector3(3, 0, 0);
                 }
 
@@ -205,6 +206,9 @@ public class Player : MonoBehaviour
         {
             print("collisionHappened");
             restart.SetActive(true);
+            Destroy(GameObject.FindWithTag("Thing"));
+            Destroy(GameObject.FindWithTag("Player"));
+            Physics.gravity = new Vector3(0, -20, 0);
         }
     }
 

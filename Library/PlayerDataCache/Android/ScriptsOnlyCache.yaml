@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - GameManager
     - PlayButton
     - Player
+    - RestartButton
     - SwipeDetection
     - ThingsBehavior
     Unity.InputSystem.dll:
@@ -20,23 +21,14 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Postprocessing.Runtime.dll:
-    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
-    - UnityEngine.Rendering.PostProcessing.AutoExposure
     - UnityEngine.Rendering.PostProcessing.Bloom
-    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
-    - UnityEngine.Rendering.PostProcessing.ColorGrading
-    - UnityEngine.Rendering.PostProcessing.DepthOfField
-    - UnityEngine.Rendering.PostProcessing.Grain
-    - UnityEngine.Rendering.PostProcessing.LensDistortion
-    - UnityEngine.Rendering.PostProcessing.MotionBlur
     - UnityEngine.Rendering.PostProcessing.PostProcessLayer
     - UnityEngine.Rendering.PostProcessing.PostProcessProfile
     - UnityEngine.Rendering.PostProcessing.PostProcessResources
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
-    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
-    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
@@ -46,6 +38,10 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -94,6 +90,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
@@ -118,6 +115,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PlayButton
     methodName: MoveToScene
+  - assembly: Assembly-CSharp
+    fullTypeName: RestartButton
+    methodName: Restart
   sceneClasses:
     Assets/Scenes/FirstScreen.unity:
     - Class: 1
@@ -145,29 +145,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17962}
     - Class: 114
-      Script: {instanceID: 25962}
+      Script: {instanceID: 25964}
     - Class: 114
-      Script: {instanceID: 26502}
+      Script: {instanceID: 26504}
     - Class: 114
-      Script: {instanceID: 27194}
+      Script: {instanceID: 27196}
     - Class: 114
-      Script: {instanceID: 27690}
+      Script: {instanceID: 27692}
     - Class: 114
-      Script: {instanceID: 27916}
+      Script: {instanceID: 27918}
     - Class: 114
-      Script: {instanceID: 28150}
+      Script: {instanceID: 28152}
     - Class: 114
-      Script: {instanceID: 29716}
+      Script: {instanceID: 29720}
     - Class: 114
-      Script: {instanceID: 29826}
+      Script: {instanceID: 29830}
     - Class: 114
-      Script: {instanceID: 30380}
+      Script: {instanceID: 30384}
     - Class: 114
-      Script: {instanceID: 30544}
+      Script: {instanceID: 30548}
     - Class: 114
-      Script: {instanceID: 30648}
+      Script: {instanceID: 30652}
     - Class: 114
-      Script: {instanceID: 31582}
+      Script: {instanceID: 31586}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,51 +218,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 25530}
+      Script: {instanceID: 25532}
     - Class: 114
-      Script: {instanceID: 25598}
+      Script: {instanceID: 25600}
     - Class: 114
-      Script: {instanceID: 25736}
+      Script: {instanceID: 25698}
     - Class: 114
-      Script: {instanceID: 25962}
+      Script: {instanceID: 25738}
     - Class: 114
-      Script: {instanceID: 26242}
+      Script: {instanceID: 25964}
     - Class: 114
-      Script: {instanceID: 26438}
+      Script: {instanceID: 26244}
     - Class: 114
-      Script: {instanceID: 26570}
+      Script: {instanceID: 26440}
     - Class: 114
-      Script: {instanceID: 26674}
+      Script: {instanceID: 26572}
     - Class: 114
-      Script: {instanceID: 27194}
+      Script: {instanceID: 26676}
     - Class: 114
-      Script: {instanceID: 27436}
+      Script: {instanceID: 27196}
     - Class: 114
-      Script: {instanceID: 27690}
+      Script: {instanceID: 27438}
     - Class: 114
-      Script: {instanceID: 28656}
+      Script: {instanceID: 27692}
     - Class: 114
-      Script: {instanceID: 29716}
+      Script: {instanceID: 28152}
     - Class: 114
-      Script: {instanceID: 30242}
+      Script: {instanceID: 28658}
     - Class: 114
-      Script: {instanceID: 30326}
+      Script: {instanceID: 28816}
     - Class: 114
-      Script: {instanceID: 30514}
+      Script: {instanceID: 29720}
     - Class: 114
-      Script: {instanceID: 30648}
+      Script: {instanceID: 30246}
     - Class: 114
-      Script: {instanceID: 31070}
+      Script: {instanceID: 30330}
     - Class: 114
-      Script: {instanceID: 31620}
+      Script: {instanceID: 30518}
     - Class: 114
-      Script: {instanceID: 31772}
+      Script: {instanceID: 30652}
     - Class: 114
-      Script: {instanceID: 32212}
+      Script: {instanceID: 31074}
     - Class: 114
-      Script: {instanceID: 32422}
+      Script: {instanceID: 31586}
     - Class: 114
-      Script: {instanceID: 32512}
+      Script: {instanceID: 31624}
+    - Class: 114
+      Script: {instanceID: 31776}
+    - Class: 114
+      Script: {instanceID: 32216}
+    - Class: 114
+      Script: {instanceID: 32426}
+    - Class: 114
+      Script: {instanceID: 32516}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -918,6 +926,12 @@ ScriptsOnlyBuild:
     className: NavMeshModifier
   - hash:
       serializedVersion: 2
+      Hash: 3268154ab6afcc2390ba95bc8616c348
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RestartButton
+  - hash:
+      serializedVersion: 2
       Hash: 8bbce9932f67ad8e7f4eefec87800f94
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1476,7 +1490,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 4d668e49a8a8377739844644f952fdcc
+      Hash: 15f00489595c620300e7a5be69949eb7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -1658,4 +1672,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/FirstScreen.unity
   - Assets/Scenes/Game.unity
-  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform26.apk
+  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform31.apk

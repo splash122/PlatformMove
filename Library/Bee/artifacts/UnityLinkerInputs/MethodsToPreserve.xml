@@ -3,5 +3,8 @@
 		<type fullname="PlayButton">
 			<method name="MoveToScene"/>
 		</type>
+		<type fullname="RestartButton">
+			<method name="Restart"/>
+		</type>
 	</assembly>
 </linker>
