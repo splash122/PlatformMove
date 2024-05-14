@@ -209,7 +209,7 @@ public class Player : MonoBehaviour
                 print(CoinsText.neededCount);
                 resume.SetActive(true);
             }
-            else if (CoinsText.coinsCount == CoinsText.neededCount)
+            else if (CoinsText.coinsCount >= CoinsText.neededCount)
             {
                 print(CoinsText.coinsCount);
                 print(CoinsText.neededCount);

@@ -103,6 +103,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Library/PackageCache/com.unity.modules.jsonserialize@1.0.0/package.json" />
     <None Include="Library/PackageCache/com.unity.postprocessing@3.4.0/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute" />
+    <None Include="Assets/Clipboard/ReadMe/ReadMe.txt" />
     <None Include="Library/PackageCache/com.unity.modules.screencapture@1.0.0/package.json" />
     <None Include="Library/PackageCache/com.unity.modules.cloth@1.0.0/package.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />

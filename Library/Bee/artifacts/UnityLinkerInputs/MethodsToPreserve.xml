@@ -1,10 +1,16 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CoinButton">
+			<method name="CoinBuy"/>
+		</type>
 		<type fullname="PlayButton">
 			<method name="MoveToScene"/>
 		</type>
 		<type fullname="RestartButton">
 			<method name="Restart"/>
+		</type>
+		<type fullname="ResumeButton">
+			<method name="Resume"/>
 		</type>
 	</assembly>
 </linker>

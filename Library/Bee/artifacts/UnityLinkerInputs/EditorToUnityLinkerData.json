@@ -25,6 +25,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "CoinButton",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "CoinRotate",
             "moduleName": "",
             "usedInScenes": []
@@ -56,6 +63,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -66,6 +74,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -90,6 +99,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -107,6 +117,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -124,6 +135,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -153,6 +165,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "RestartButton",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ResumeButton",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -260,6 +279,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -312,6 +332,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -322,6 +343,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -332,6 +354,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -351,6 +374,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -361,6 +385,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -371,6 +396,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -399,6 +425,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -418,6 +445,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -442,6 +470,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -452,6 +481,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -511,6 +541,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -521,6 +552,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -531,6 +563,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -541,6 +574,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
         },
@@ -550,6 +584,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
         },
@@ -559,6 +594,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
         },
@@ -568,6 +604,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -578,6 +615,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -595,6 +633,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -605,6 +644,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
         },
@@ -656,6 +696,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -675,6 +716,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -713,6 +755,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -723,6 +766,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -733,6 +777,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]
@@ -743,6 +788,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/2Level.unity",
                 "Assets/Scenes/FirstScreen.unity",
                 "Assets/Scenes/Game.unity"
             ]

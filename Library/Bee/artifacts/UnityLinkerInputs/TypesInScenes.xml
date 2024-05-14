@@ -2,6 +2,7 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="BackGround" preserve="nothing"/>
 		<type fullname="BoundaryDown" preserve="nothing"/>
+		<type fullname="CoinButton" preserve="nothing"/>
 		<type fullname="CoinRotate" preserve="nothing"/>
 		<type fullname="CoinsText" preserve="nothing"/>
 		<type fullname="CubeMover" preserve="nothing"/>
@@ -9,6 +10,7 @@
 		<type fullname="PlayButton" preserve="nothing"/>
 		<type fullname="Player" preserve="nothing"/>
 		<type fullname="RestartButton" preserve="nothing"/>
+		<type fullname="ResumeButton" preserve="nothing"/>
 		<type fullname="SwipeDetection" preserve="nothing"/>
 		<type fullname="ThingsBehavior" preserve="nothing"/>
 	</assembly>

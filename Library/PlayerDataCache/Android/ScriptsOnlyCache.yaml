@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BackGround
     - BoundaryDown
+    - CoinButton
     - CoinRotate
     - CoinsText
     - CubeMover
@@ -10,6 +11,7 @@ ScriptsOnlyBuild:
     - PlayButton
     - Player
     - RestartButton
+    - ResumeButton
     - SwipeDetection
     - ThingsBehavior
     Unity.InputSystem.dll:
@@ -116,10 +118,16 @@ ScriptsOnlyBuild:
     fullTypeName: PlayButton
     methodName: MoveToScene
   - assembly: Assembly-CSharp
+    fullTypeName: CoinButton
+    methodName: CoinBuy
+  - assembly: Assembly-CSharp
     fullTypeName: RestartButton
     methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: ResumeButton
+    methodName: Resume
   sceneClasses:
-    Assets/Scenes/FirstScreen.unity:
+    Assets/Scenes/2Level.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -129,6 +137,59 @@ ScriptsOnlyBuild:
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 26046}
+    - Class: 114
+      Script: {instanceID: 27294}
+    - Class: 114
+      Script: {instanceID: 27792}
+    - Class: 114
+      Script: {instanceID: 28020}
+    - Class: 114
+      Script: {instanceID: 29840}
+    - Class: 114
+      Script: {instanceID: 30778}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/FirstScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -145,29 +206,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17962}
     - Class: 114
-      Script: {instanceID: 25964}
+      Script: {instanceID: 26046}
     - Class: 114
-      Script: {instanceID: 26504}
+      Script: {instanceID: 26594}
     - Class: 114
-      Script: {instanceID: 27196}
+      Script: {instanceID: 27294}
     - Class: 114
-      Script: {instanceID: 27692}
+      Script: {instanceID: 27792}
     - Class: 114
-      Script: {instanceID: 27918}
+      Script: {instanceID: 28020}
     - Class: 114
-      Script: {instanceID: 28152}
+      Script: {instanceID: 28254}
     - Class: 114
-      Script: {instanceID: 29720}
+      Script: {instanceID: 29840}
     - Class: 114
-      Script: {instanceID: 29830}
+      Script: {instanceID: 29950}
     - Class: 114
-      Script: {instanceID: 30384}
+      Script: {instanceID: 30506}
     - Class: 114
-      Script: {instanceID: 30548}
+      Script: {instanceID: 30670}
     - Class: 114
-      Script: {instanceID: 30652}
+      Script: {instanceID: 30778}
     - Class: 114
-      Script: {instanceID: 31586}
+      Script: {instanceID: 31722}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,59 +279,63 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 25532}
+      Script: {instanceID: 25610}
     - Class: 114
-      Script: {instanceID: 25600}
+      Script: {instanceID: 25678}
     - Class: 114
-      Script: {instanceID: 25698}
+      Script: {instanceID: 25778}
     - Class: 114
-      Script: {instanceID: 25738}
+      Script: {instanceID: 25818}
     - Class: 114
-      Script: {instanceID: 25964}
+      Script: {instanceID: 26046}
     - Class: 114
-      Script: {instanceID: 26244}
+      Script: {instanceID: 26074}
     - Class: 114
-      Script: {instanceID: 26440}
+      Script: {instanceID: 26330}
     - Class: 114
-      Script: {instanceID: 26572}
+      Script: {instanceID: 26530}
     - Class: 114
-      Script: {instanceID: 26676}
+      Script: {instanceID: 26664}
     - Class: 114
-      Script: {instanceID: 27196}
+      Script: {instanceID: 26770}
     - Class: 114
-      Script: {instanceID: 27438}
+      Script: {instanceID: 27294}
     - Class: 114
-      Script: {instanceID: 27692}
+      Script: {instanceID: 27538}
     - Class: 114
-      Script: {instanceID: 28152}
+      Script: {instanceID: 27792}
     - Class: 114
-      Script: {instanceID: 28658}
+      Script: {instanceID: 28254}
     - Class: 114
-      Script: {instanceID: 28816}
+      Script: {instanceID: 28766}
     - Class: 114
-      Script: {instanceID: 29720}
+      Script: {instanceID: 28924}
     - Class: 114
-      Script: {instanceID: 30246}
+      Script: {instanceID: 29840}
     - Class: 114
-      Script: {instanceID: 30330}
+      Script: {instanceID: 30368}
     - Class: 114
-      Script: {instanceID: 30518}
+      Script: {instanceID: 30452}
     - Class: 114
-      Script: {instanceID: 30652}
+      Script: {instanceID: 30640}
     - Class: 114
-      Script: {instanceID: 31074}
+      Script: {instanceID: 30778}
     - Class: 114
-      Script: {instanceID: 31586}
+      Script: {instanceID: 30834}
     - Class: 114
-      Script: {instanceID: 31624}
+      Script: {instanceID: 31206}
     - Class: 114
-      Script: {instanceID: 31776}
+      Script: {instanceID: 31722}
     - Class: 114
-      Script: {instanceID: 32216}
+      Script: {instanceID: 31760}
     - Class: 114
-      Script: {instanceID: 32426}
+      Script: {instanceID: 31916}
     - Class: 114
-      Script: {instanceID: 32516}
+      Script: {instanceID: 32358}
+    - Class: 114
+      Script: {instanceID: 32574}
+    - Class: 114
+      Script: {instanceID: 32666}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -378,6 +443,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a5599642e673141287df81a94a63c0a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CoinButton
   - hash:
       serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
@@ -1334,6 +1405,12 @@ ScriptsOnlyBuild:
     className: InputActionAssetEditor
   - hash:
       serializedVersion: 2
+      Hash: 11ab67687533f62201983d055e0e9b6e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResumeButton
+  - hash:
+      serializedVersion: 2
       Hash: 17142b03663387290480c82303274c02
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1672,4 +1749,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/FirstScreen.unity
   - Assets/Scenes/Game.unity
-  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform31.apk
+  - Assets/Scenes/2Level.unity
+  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform32.apk
