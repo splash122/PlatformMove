@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - GameManager
     - PlayButton
     - Player
+    - Progressbar1
     - RestartButton
     - ResumeButton
     - SwipeDetection
@@ -23,11 +24,21 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
     Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
     - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
     - UnityEngine.Rendering.PostProcessing.PostProcessLayer
     - UnityEngine.Rendering.PostProcessing.PostProcessProfile
     - UnityEngine.Rendering.PostProcessing.PostProcessResources
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.RiderScriptEditorPersistedState
@@ -55,6 +66,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   serializedClasses:
     Unity.InputSystem:
@@ -112,6 +124,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
@@ -155,21 +168,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 26046}
+      Script: {instanceID: 26068}
     - Class: 114
-      Script: {instanceID: 27294}
+      Script: {instanceID: 27102}
     - Class: 114
-      Script: {instanceID: 27792}
+      Script: {instanceID: 27316}
     - Class: 114
-      Script: {instanceID: 28020}
+      Script: {instanceID: 27814}
     - Class: 114
-      Script: {instanceID: 28254}
+      Script: {instanceID: 28044}
     - Class: 114
-      Script: {instanceID: 28924}
+      Script: {instanceID: 28278}
     - Class: 114
-      Script: {instanceID: 29840}
+      Script: {instanceID: 28790}
     - Class: 114
-      Script: {instanceID: 30778}
+      Script: {instanceID: 28948}
+    - Class: 114
+      Script: {instanceID: 29864}
+    - Class: 114
+      Script: {instanceID: 30802}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -216,31 +233,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17962}
+      Script: {instanceID: 17978}
     - Class: 114
-      Script: {instanceID: 26046}
+      Script: {instanceID: 26068}
     - Class: 114
-      Script: {instanceID: 26594}
+      Script: {instanceID: 26616}
     - Class: 114
-      Script: {instanceID: 27294}
+      Script: {instanceID: 27316}
     - Class: 114
-      Script: {instanceID: 27792}
+      Script: {instanceID: 27814}
     - Class: 114
-      Script: {instanceID: 28020}
+      Script: {instanceID: 28044}
     - Class: 114
-      Script: {instanceID: 28254}
+      Script: {instanceID: 28278}
     - Class: 114
-      Script: {instanceID: 29840}
+      Script: {instanceID: 29864}
     - Class: 114
-      Script: {instanceID: 29950}
+      Script: {instanceID: 29974}
     - Class: 114
-      Script: {instanceID: 30506}
+      Script: {instanceID: 30530}
     - Class: 114
-      Script: {instanceID: 30670}
+      Script: {instanceID: 30694}
     - Class: 114
-      Script: {instanceID: 30778}
+      Script: {instanceID: 30802}
     - Class: 114
-      Script: {instanceID: 31722}
+      Script: {instanceID: 31748}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -291,63 +308,67 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 25610}
+      Script: {instanceID: 25632}
     - Class: 114
-      Script: {instanceID: 25678}
+      Script: {instanceID: 25700}
     - Class: 114
-      Script: {instanceID: 25778}
+      Script: {instanceID: 25800}
     - Class: 114
-      Script: {instanceID: 25818}
+      Script: {instanceID: 25840}
     - Class: 114
-      Script: {instanceID: 26046}
+      Script: {instanceID: 26068}
     - Class: 114
-      Script: {instanceID: 26074}
+      Script: {instanceID: 26096}
     - Class: 114
-      Script: {instanceID: 26330}
+      Script: {instanceID: 26352}
     - Class: 114
-      Script: {instanceID: 26530}
+      Script: {instanceID: 26552}
     - Class: 114
-      Script: {instanceID: 26664}
+      Script: {instanceID: 26686}
     - Class: 114
-      Script: {instanceID: 26770}
+      Script: {instanceID: 26792}
     - Class: 114
-      Script: {instanceID: 27294}
+      Script: {instanceID: 27102}
     - Class: 114
-      Script: {instanceID: 27538}
+      Script: {instanceID: 27316}
     - Class: 114
-      Script: {instanceID: 27792}
+      Script: {instanceID: 27560}
     - Class: 114
-      Script: {instanceID: 28254}
+      Script: {instanceID: 27814}
     - Class: 114
-      Script: {instanceID: 28766}
+      Script: {instanceID: 27922}
     - Class: 114
-      Script: {instanceID: 28924}
+      Script: {instanceID: 28278}
     - Class: 114
-      Script: {instanceID: 29840}
+      Script: {instanceID: 28790}
     - Class: 114
-      Script: {instanceID: 30368}
+      Script: {instanceID: 28948}
     - Class: 114
-      Script: {instanceID: 30452}
+      Script: {instanceID: 29864}
     - Class: 114
-      Script: {instanceID: 30640}
+      Script: {instanceID: 30392}
     - Class: 114
-      Script: {instanceID: 30778}
+      Script: {instanceID: 30476}
     - Class: 114
-      Script: {instanceID: 30834}
+      Script: {instanceID: 30664}
     - Class: 114
-      Script: {instanceID: 31206}
+      Script: {instanceID: 30802}
     - Class: 114
-      Script: {instanceID: 31722}
+      Script: {instanceID: 30858}
     - Class: 114
-      Script: {instanceID: 31760}
+      Script: {instanceID: 31230}
     - Class: 114
-      Script: {instanceID: 31916}
+      Script: {instanceID: 31748}
     - Class: 114
-      Script: {instanceID: 32358}
+      Script: {instanceID: 31786}
     - Class: 114
-      Script: {instanceID: 32574}
+      Script: {instanceID: 31942}
     - Class: 114
-      Script: {instanceID: 32666}
+      Script: {instanceID: 32384}
+    - Class: 114
+      Script: {instanceID: 32600}
+    - Class: 114
+      Script: {instanceID: 32692}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -359,6 +380,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -841,6 +866,12 @@ ScriptsOnlyBuild:
     className: TrackedDeviceRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 4a8e79806322dd7d9de4d0e0907c3b10
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Progressbar1
+  - hash:
+      serializedVersion: 2
       Hash: 0b63f6d3335e11939ce8790b904c8691
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -985,7 +1016,7 @@ ScriptsOnlyBuild:
     className: PostProcessEffectSettings
   - hash:
       serializedVersion: 2
-      Hash: 441ca0a6dcfced697a80ba71f992d523
+      Hash: d0a95a6a0ddcf463521aa29bec4e3de0
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CoinsText
@@ -1495,6 +1526,12 @@ ScriptsOnlyBuild:
     className: VertexColorCycler
   - hash:
       serializedVersion: 2
+      Hash: 78d49dcedee62f42aef3b4a0bd8a54fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ClassicProgressBar
+  - hash:
+      serializedVersion: 2
       Hash: 216f6c07bfa250e44b3e8d62572474e8
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1579,7 +1616,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 15f00489595c620300e7a5be69949eb7
+      Hash: d76a5a43bdea31ef7a37b137e189560c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -1757,9 +1794,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 62b16b60d7d709918e28ddbbdeea052b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CircularProgressBar
   platform: 13
   scenePathNames:
   - Assets/Scenes/FirstScreen.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/2Level.unity
-  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform34.apk
+  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform39.apk
