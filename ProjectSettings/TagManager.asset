@@ -18,6 +18,7 @@ TagManager:
   - BoundaryRight
   - Restart
   - CoinsNotEnoughWindow
+  - CoinsText
   layers:
   - Default
   - TransparentFX

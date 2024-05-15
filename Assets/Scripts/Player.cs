@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     private GameObject restart;
     private GameObject resume;
     public Player playGameObj;
+    public CoinsText coinsText;
+    public Progressbar1 progressBar;
 
 
     private void OnEnable()
@@ -50,6 +52,7 @@ public class Player : MonoBehaviour
         resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
         restart.SetActive(false);
         resume.SetActive(false);
+        //coinsText = GameObject.FindWithTag("CoinsText").GetComponent<CoinsText>();
         //thing = GameObject.FindWithTag("Thing").GetComponent<Rigibody>();
     }
 
@@ -237,7 +240,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Coin")
         {
             Destroy(other.gameObject);
-            CoinsText.coinsCount += 1;
+            coinsText.IncrementCoins();
+            progressBar.IncrementProgress();
         }
     }
     

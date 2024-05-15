@@ -1,29 +1,25 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Animations;
 using UnityEngine.UI;
 
 public class CoinsText : MonoBehaviour
 {
     private GameObject coin;
+    public Progressbar1 progressbar1;
     public Text coinsText;
-    public static int coinsCount;
-    public static int neededCount;
+    public static int coinsCount = 0;
+    public static float neededCount = 2f;
+    public float resultProgress;
     // Start is called before the first frame update
+
     void Start()
     {
         coin = GameObject.FindWithTag("Coin");
-        neededCount = 2;
+        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void IncrementCoins()
     {
-        
-        coinsText.text = "Coins: " + Mathf.Round(coinsCount);
-        if (coinsCount == neededCount) ;
+        coinsCount += 1;
+        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 }
