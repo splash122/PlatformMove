@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     private GameObject restart;
     private GameObject resume;
     public Player playGameObj;
-    public CoinsText coinsText;
+    public CoinsManager coinsText;
     public Progressbar1 progressBar;
 
 
@@ -206,23 +206,26 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "HouseMain")
         {
             print("collisionHappened");
-            if (CoinsText.coinsCount < CoinsText.neededCount)
+            if (CoinsManager.coinsCount < CoinsManager.neededCount)
             {
-                print(CoinsText.coinsCount);
-                print(CoinsText.neededCount);
+                print(CoinsManager.coinsCount);
+                print(CoinsManager.neededCount);
+                Physics.gravity = new Vector3(0, -20, 0);
                 GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
                 resume.SetActive(true);
             }
-            else if (CoinsText.coinsCount >= CoinsText.neededCount)
+            else if (CoinsManager.coinsCount >= CoinsManager.neededCount)
             {
-                print(CoinsText.coinsCount);
-                print(CoinsText.neededCount);
-                SceneManager.LoadScene("2Level");
+                print(CoinsManager.coinsCount);
+                print(CoinsManager.neededCount);
+                Physics.gravity = new Vector3(0, -20, 0);
+                coinsText.DecrementCoins();
+                SceneManager.LoadScene("GameNext");
             }
             else
             {
-                print(CoinsText.coinsCount);
-                print(CoinsText.neededCount);
+                print(CoinsManager.coinsCount);
+                print(CoinsManager.neededCount);
             }
         }
         if (collision.gameObject.tag == "Thing")

@@ -403,7 +403,7 @@
 "Assets/Scripts/BoundaryDown.cs"
 "Assets/Scripts/CoinButton.cs"
 "Assets/Scripts/CoinRotate.cs"
-"Assets/Scripts/CoinsText.cs"
+"Assets/Scripts/CoinsManager.cs"
 "Assets/Scripts/CubeExample.cs"
 "Assets/Scripts/CubeMover.cs"
 "Assets/Scripts/GameManager.cs"

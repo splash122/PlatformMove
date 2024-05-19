@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CoinButton : MonoBehaviour
 {
-    public CoinsText coinsText;
+    public CoinsManager coinsText;
     public void CoinBuy()
     {
         coinsText.BuyCoins();

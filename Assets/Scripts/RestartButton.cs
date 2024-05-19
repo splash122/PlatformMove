@@ -9,8 +9,8 @@ public class RestartButton : MonoBehaviour
 
     public void Restart()
     {
-        CoinsText.coinsCount = 0;
+        //CoinsManager.coinsCount = 0;
         Physics.gravity = new Vector3(0, -20, 0);
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
