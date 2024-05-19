@@ -35,9 +35,9 @@ public class Progressbar1 : MonoBehaviour
         }
     }
 
-    public void IncrementProgress()
+    public void IncrementProgress(int coin)
     {
-        coinsCount = 1;
+        coinsCount = coin;
         neededCount = 2;
         resultProgress = Mathf.Round(coinsCount) / Mathf.Round(neededCount);
         targetProgress = slider.value + resultProgress;

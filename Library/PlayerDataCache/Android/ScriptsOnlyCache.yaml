@@ -482,7 +482,7 @@ ScriptsOnlyBuild:
     className: InputActionImporterEditor
   - hash:
       serializedVersion: 2
-      Hash: a5599642e673141287df81a94a63c0a0
+      Hash: e4e821af4761bf2f8a7c67a520861d80
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CoinButton
@@ -1805,4 +1805,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/FirstScreen.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/2Level.unity
-  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform39.apk
+  playerPath: /Users/splash/PlatformMove/Builds/RotatePlatform40.apk

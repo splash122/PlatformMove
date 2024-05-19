@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class CoinButton : MonoBehaviour
 {
+    public CoinsText coinsText;
     public void CoinBuy()
     {
-        CoinsText.coinsCount += 20;
+        coinsText.BuyCoins();
+        print("Attempt to buy coins");
     }
 }

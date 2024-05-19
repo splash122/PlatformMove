@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
                   if (hit.collider.tag == "BoundaryLeft")
                   {
                       print("It's BoundaryLeft");
-                      transform.position = new Vector3(-5,oldTrans.y,oldTrans.z);
+                      transform.position = new Vector3(-5f,oldTrans.y,oldTrans.z);
                   }
               }
           }
@@ -100,7 +100,7 @@ public class Player : MonoBehaviour
                     if (hit.collider.tag == "BoundaryRight")
                     {
                         print("It's BoundaryRight");
-                        transform.position = new Vector3(5,oldTrans.y,oldTrans.z);
+                        transform.position = new Vector3(5f,oldTrans.y,oldTrans.z);
                     }
                 }
             }
@@ -119,7 +119,7 @@ public class Player : MonoBehaviour
                     if (hit.collider.tag == "BoundaryFar")
                     {
                         print("It's BoundaryFar");
-                        transform.position = new Vector3(oldTrans.x, oldTrans.y, 5);
+                        transform.position = new Vector3(oldTrans.x, oldTrans.y, 5f);
                     }
                 }
             }
@@ -139,7 +139,7 @@ public class Player : MonoBehaviour
                         if (hit.collider.tag == "BoundaryNear")
                         {
                             print("It's BoundaryNear");
-                            transform.position = new Vector3(oldTrans.x,oldTrans.y,-5);
+                            transform.position = new Vector3(oldTrans.x,oldTrans.y,-5f);
                         }
                     }
                 }
@@ -156,7 +156,7 @@ public class Player : MonoBehaviour
         {
             yield return null;
             oldTrans = new Vector3(transform.position.x,transform.position.y,transform.position.z);
-            playerToGo = new Vector3(transform.position.x + direction.x / 5, 1f, transform.position.z + direction.y / 5);
+            playerToGo = new Vector3(transform.position.x + direction.x / 5, 0.6f, transform.position.z + direction.y / 5);
             player.transform.position = playerToGo;
             newToGo = new Vector3(-direction.y, 0, -direction.x);
             //Camera move
@@ -241,7 +241,7 @@ public class Player : MonoBehaviour
         {
             Destroy(other.gameObject);
             coinsText.IncrementCoins();
-            progressBar.IncrementProgress();
+            progressBar.IncrementProgress(1);
         }
     }
     

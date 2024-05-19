@@ -22,4 +22,11 @@ public class CoinsText : MonoBehaviour
         coinsCount += 1;
         coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
+
+    public void BuyCoins()
+    {
+        coinsCount += 20;
+        progressbar1.IncrementProgress(20);
+        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+    }
 }
