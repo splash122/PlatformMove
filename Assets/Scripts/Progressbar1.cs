@@ -12,6 +12,8 @@ public class Progressbar1 : MonoBehaviour
     public static int coinsCount = 0;
     public static float neededCount;
     private float resultProgress;
+
+    public GameManager gameManager;
     // Start is called before the first frame update
     void Awake()
     {
@@ -38,7 +40,7 @@ public class Progressbar1 : MonoBehaviour
     public void IncrementProgress(int coin)
     {
         coinsCount = coin;
-        neededCount = 2;
+        neededCount = gameManager.coinsForLevel;
         resultProgress = Mathf.Round(coinsCount) / Mathf.Round(neededCount);
         targetProgress = slider.value + resultProgress;
         print("newProgress: slider and target");

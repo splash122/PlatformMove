@@ -7,18 +7,21 @@ public class CoinsText : MonoBehaviour
     public Progressbar1 progressbar1;
     public Text coinsText;
     public static int coinsCount = 0;
-    public static float neededCount = 2f;
+    public static float neededCount;
     public float resultProgress;
+    public GameManager gameManager;
     // Start is called before the first frame update
 
     void Start()
     {
+        neededCount = gameManager.coinsForLevel;
         coin = GameObject.FindWithTag("Coin");
         coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void IncrementCoins()
     {
+        
         coinsCount += 1;
         coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
