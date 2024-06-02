@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
     int madeMovesLeft;
     int madeMovesUp;
     int madeMovesDown;
+    public int gainedCoins;
 
 
     /*private void OnEnable()
@@ -356,6 +357,9 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             coinsText.IncrementCoins();
             progressBar.IncrementProgress(1);
+            gainedCoins++;
+            print("Gained coins");
+            print(gainedCoins);
         }
     }
     

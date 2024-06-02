@@ -41,6 +41,8 @@ public class Progressbar1 : MonoBehaviour
     {
         coinsCount = coin;
         neededCount = gameManager.coinsForLevel;
+        print("neededCount");
+        print(neededCount);
         resultProgress = Mathf.Round(coinsCount) / Mathf.Round(neededCount);
         targetProgress = slider.value + resultProgress;
         print("newProgress: slider and target");

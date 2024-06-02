@@ -10,6 +10,7 @@ public class CoinsManager : MonoBehaviour
     public static int neededCount;
     public float resultProgress;
     public GameManager gameManager;
+    public Player player;
     // Start is called before the first frame update
 
     void Start()
@@ -30,6 +31,11 @@ public class CoinsManager : MonoBehaviour
     {
         coinsCount -= neededCount;
         coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+    }
+
+    public void DecrementIfRestart()
+    {
+        coinsCount -= player.gainedCoins;
     }
 
     public void BuyCoins()

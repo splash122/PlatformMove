@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class RestartButton : MonoBehaviour
 {
+    public Player player;
+    public CoinsManager coinsmanager;
+
 
     public void Restart()
     {
-        //CoinsManager.coinsCount = 0;
+        coinsmanager.DecrementIfRestart();
         Physics.gravity = new Vector3(0, -20, 0);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
