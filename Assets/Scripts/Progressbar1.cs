@@ -28,7 +28,7 @@ public class Progressbar1 : MonoBehaviour
             slider.value += fillSpeed * Time.deltaTime;
             if (!particleSystem.isPlaying)
             {
-                particleSystem.Play();
+               // particleSystem.Play();
             }
         }
         else

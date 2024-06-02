@@ -19,6 +19,7 @@ TagManager:
   - Restart
   - CoinsNotEnoughWindow
   - CoinsText
+  - Tree
   layers:
   - Default
   - TransparentFX

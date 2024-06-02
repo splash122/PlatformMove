@@ -11,6 +11,7 @@ public class ThingsBehavior : MonoBehaviour
     Rigidbody rbThing;
     private Vector3 old_pos;
     private bool changeHappened;
+    private ParticleSystem particleSystem;
     
     private void Awake()
     {
@@ -25,7 +26,7 @@ public class ThingsBehavior : MonoBehaviour
     
     void Update()
     {
-        rbThing.transform.rotation = GameObject.FindWithTag("Floor").transform.rotation;
+        //rbThing.transform.rotation = GameObject.FindWithTag("Floor").transform.rotation;
         if (old_pos != rbThing.transform.position && moveDirectionX)
             
         {
@@ -45,19 +46,11 @@ public class ThingsBehavior : MonoBehaviour
             }
         }
     }
-    
 
-    void OnTriggerEnter(Collider change)
+
+    public void ParticlesPlay()
     {
-        if (change.tag == "Rotator")
-        {
-            changeHappened = true;
-            Debug.Log(("changehappened"));
-        }
-        if (change.gameObject.tag == "Coin")
-        {
-            change.enabled = false;
-        }
+        particleSystem.Play();
     }
 }
 

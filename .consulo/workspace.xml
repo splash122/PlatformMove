@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <component name="ChangeListManager">
+    <list default="true" id="a3cabf3c-28c5-4025-aa06-e6202874eeab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.consulo/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.consulo/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.consulo/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.consulo/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.consulo/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/0bc60892c6ba06a1ea722e5b2e1cb9e4_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/0f293ae87fbfa241289ad781a609d80d_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/12b84bf372161cee29dd4d2507c29406_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/1933b008e850a2df5543415d3747bacc_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/2c513c46bf4c10b3750f5f00b149ccfd_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/343c83160eddc9919953f540cb078cd9_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/5bd16c88243c45676290def4a6ec885d_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/70fb9ae37c0d3cb196fd96f301096f17_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/737687f71bb3e1533a45cb9a5ba01bee_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/7fa6513a852dbe6dc6e85e29934e5a2e_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/82fcda85c98260a512f9fd271b42b4dd_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/8373c17e5c8cbe6409e91fda059d76cb_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/8bcbb5ee6bf36c507da2f23b0c402840_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/8edb5676bdb0adff019da36b16df9bbb_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/8fbc27c1c4adcbf70f933fdce3a6e71c_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/8fceca7de397cda5825adc7207f73865_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/91c490685696a35e01f5b91d1442ab9c_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/91ea4aa4495fcd3f36b6304d4f98f9c2_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/95dbaf08023947e18c25d2f613c9a2a5_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/a593bf77347de5b20c6983ae7e1260c0_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/a94dbf03aedd797c61f6db8cffb5465c_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/ac85a10c8ff5ad399fff82d09d51bd2b_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/b0de4a54d2a508101984ee91dfc2cba7_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/b95b6b72306d7653b961b2a7e7ec1d4c_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/ba248a01021ee45dc2150b9097faf50a_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/bb59eafece45488d2d7ab743d30275b0_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/cc23fc81ee3dd88f29f787950287e50b_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/d2f274afe3637ef8d22786a8dfe25933_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/d3ea09f71f4534048e1fd43e284025d7_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/d5cf2782b91892122f67d9b4a0bc2c3c_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/db3366f02feb82097abfeb271172f893_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/f86f86d77afd6f3d9b24fad1ec5788ee_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/fe0843f4ad6fe97886e447379b5a041b_out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_5A4B0115760475C9.mvfrm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.Search.SearchWindow.pref" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/FSTimeGet-0768bf3432ed341dfb71a20abc5f445e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/FSTimeGet-b39059656abad4b1cb49ea03d113a5cd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Temp/FSTimeGet-c0f8c4961a3a245cebc4a82d1cd20501" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/2Level.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/FSTimeGet-19f26536208f5485a8eb755689fe8a6d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Temp/FSTimeGet-2d9c0ffbcedc24a779bceed0c4532fe4" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Scenes/2Level.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity.meta" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Scenes/GameNext.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Scenes/GameNext.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity.meta" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Temp/FSTimeGet-9fcb850171bd040b586e62f216835eb0" afterPath="$PROJECT_DIR$/Library/Bee/CachedNodeOutput/054abacac0a0dd9a17f2e864203a845f_out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.ref.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.ref.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/CoinButton.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinButton.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Progressbar1.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Progressbar1.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ResumeButton.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ResumeButton.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ArtifactDB" afterPath="$PROJECT_DIR$/Library/ArtifactDB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/1300b0aE-inputdata.json" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aE-inputdata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag.json" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag.payloads" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag.payloads" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag_derived" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aE.dag_derived" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Sprite.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.Updater.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.AI.Navigation.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.CollabProxy.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Runtime.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Settings.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TestTools.CodeCoverage.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Core.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Flow.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualScripting.State.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/Unity.VisualStudio.Editor.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.TestRunner.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/EditorInstance.json" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.AI.Navigation.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.ForUI.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.ForUI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.InputSystem.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Settings.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Core.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Flow.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualScripting.State.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Search/transactions.db" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SourceAssetDB" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/cc/cc1aebfb2337ed5c29cb1283dab55aee.json" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/cc/cc1aebfb2337ed5c29cb1283dab55aee.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UndoData.bin" afterPath="$PROJECT_DIR$/Library/UndoData.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UndoStack.bin" afterPath="$PROJECT_DIR$/Library/UndoStack.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ilpp.pid" afterPath="$PROJECT_DIR$/Library/ilpp.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2023.dwlt" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2023.dwlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSettings/Search.settings" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.collabignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlatformMove.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinRotate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BoundaryDown.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwipeDetection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Progressbar1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CubeMover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NotMovable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RestartButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResumeButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="249" column="29" lean-forward="true" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
+          <folding>
+            <element signature="e#1439#1882#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="249" column="29" lean-forward="true" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
+              <folding>
+                <element signature="e#1439#1882#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResumeButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ResumeButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThingsBehavior.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestartButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RestartButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinsManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>grav</find>
+      <find>swipe</find>
+      <find>direction</find>
+      <find>restart</find>
+      <find>backGround</find>
+      <find>canMove</find>
+      <find>gravity</find>
+      <find>Target</find>
+      <find>back</find>
+      <find>kine</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <favorite-branches>
+      <branch-storage />
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage />
+    </excluded-from-favorite>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Progressbar1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResumeButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="555" />
+    <option name="y" value="64" />
+    <option name="width" value="950" />
+    <option name="height" value="929" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType ProjectPane="true" />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3cabf3c-28c5-4025-aa06-e6202874eeab" name="Default" comment="" />
+      <created>1716752503035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716752503035</updated>
+      <workItem from="1716752503788" duration="21000" />
+      <workItem from="1716819619230" duration="7000" />
+      <workItem from="1716819645836" duration="31000" />
+      <workItem from="1717165127645" duration="2273000" />
+      <workItem from="1717167836091" duration="33000" />
+      <workItem from="1717167881055" duration="65000" />
+      <workItem from="1717167970226" duration="55800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="58230000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="555" y="64" width="950" height="929" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Bookmarks" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Time Tracking" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="324" y="344" key="IdeErrosDialog" timestamp="1717167934914">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="324" y="344" key="IdeErrosDialog/0.25.1680.969@0.25.1680.969" timestamp="1717167934914" />
+    <state x="222" y="279" width="1028" height="500" key="OptionsEditor" timestamp="1717167893150">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="222" y="279" width="1028" height="500" key="OptionsEditor/0.25.1680.969@0.25.1680.969" timestamp="1717167893150" />
+    <state x="361" y="279" width="750" height="500" key="consulo.ide.impl.idea.execution.impl.EditConfigurationsDialog" timestamp="1717167903177">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="361" y="279" width="750" height="500" key="consulo.ide.impl.idea.execution.impl.EditConfigurationsDialog/0.25.1680.969@0.25.1680.969" timestamp="1717167903177" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45692885" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
