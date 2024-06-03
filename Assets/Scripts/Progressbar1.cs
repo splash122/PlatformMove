@@ -6,24 +6,23 @@ public class Progressbar1 : MonoBehaviour
     public float fillSpeed = 0.5f;
     private float targetProgress = 0;
     public Slider slider;
-    private GameObject coin;
     private ParticleSystem particleSystem;
     public Text coinsText;
-    public static int coinsCount = 0;
-    public static float neededCount;
+    public static int neededCount;
     private float resultProgress;
-
+    private float realProgress;
     public GameManager gameManager;
     // Start is called before the first frame update
     void Awake()
     {
+
         slider = gameObject.GetComponent<Slider>();
         particleSystem = GameObject.Find("ProgressBarParticles").GetComponent<ParticleSystem>();
     }
 
-    private void Update()
+    public void Update()
     {
-        if (slider.value < targetProgress)
+        /*if (slider.value < targetProgress)
         {
             slider.value += fillSpeed * Time.deltaTime;
             if (!particleSystem.isPlaying)
@@ -34,20 +33,16 @@ public class Progressbar1 : MonoBehaviour
         else
         {
             particleSystem.Stop();
-        }
+        }*/
     }
 
-    public void IncrementProgress(int coin)
+    public void IncrementProgress(float result)
     {
-        coinsCount = coin;
-        neededCount = gameManager.coinsForLevel;
-        print("neededCount");
-        print(neededCount);
-        resultProgress = Mathf.Round(coinsCount) / Mathf.Round(neededCount);
-        targetProgress = slider.value + resultProgress;
-        print("newProgress: slider and target");
-        print(slider.value);
-        print(resultProgress);
-        print(targetProgress);
+        if(result<1){
+            slider.value = result;
+        }
+        if(result>=1){
+            slider.value = 1;
+        }
     }
 }

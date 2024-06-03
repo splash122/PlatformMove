@@ -17,31 +17,41 @@ public class CoinsManager : MonoBehaviour
     {
         neededCount = gameManager.coinsForLevel;
         coin = GameObject.FindWithTag("Coin");
-        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
+        progressbar1.IncrementProgress(resultProgress);
+        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void IncrementCoins()
     {
         
         coinsCount += 1;
-        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
+        progressbar1.IncrementProgress(resultProgress);
+        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void DecrementCoins()
     {
         coinsCount -= neededCount;
-        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
+        progressbar1.IncrementProgress(resultProgress);
+        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void DecrementIfRestart()
     {
         coinsCount -= player.gainedCoins;
+        resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
+        progressbar1.IncrementProgress(resultProgress);
+        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void BuyCoins()
     {
-        coinsCount += 20;
-        progressbar1.IncrementProgress(20);
-        coinsText.text = "Coins: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        coinsCount += 1;
+        resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
+        progressbar1.IncrementProgress(resultProgress);
+        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 }

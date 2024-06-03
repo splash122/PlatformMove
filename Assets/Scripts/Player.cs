@@ -35,6 +35,8 @@ public class Player : MonoBehaviour
     int madeMovesUp;
     int madeMovesDown;
     public int gainedCoins;
+    AudioSource coinsSound;
+
 
 
     /*private void OnEnable()
@@ -55,6 +57,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        coinsSound = GetComponent<AudioSource>();
         playGameObj = GetComponent<Player>();
         player = GetComponent<Rigidbody>();
         restart = GameObject.FindWithTag("Restart");
@@ -354,9 +357,9 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Coin")
         {
+            coinsSound.Play();
             Destroy(other.gameObject);
             coinsText.IncrementCoins();
-            progressBar.IncrementProgress(1);
             gainedCoins++;
             print("Gained coins");
             print(gainedCoins);
