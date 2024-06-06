@@ -1,9 +1,0 @@
-com.DefaultCompany.PlatformMove.launcher-pngs-0 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/generated/res/pngs/release
-com.DefaultCompany.PlatformMove.launcher-resValues-1 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/generated/res/resValues/release
-com.DefaultCompany.PlatformMove.launcher-rs-2 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/generated/res/rs/release
-com.DefaultCompany.PlatformMove.launcher-mergeReleaseResources-3 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.DefaultCompany.PlatformMove.launcher-mergeReleaseResources-4 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.DefaultCompany.PlatformMove.launcher-merged_res-5 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/merged_res/release
-com.DefaultCompany.PlatformMove.launcher-main-6 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res
-com.DefaultCompany.PlatformMove.launcher-release-7 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/release/res
-com.DefaultCompany.PlatformMove.launcher-packaged_res-8 /Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/packaged_res/release
