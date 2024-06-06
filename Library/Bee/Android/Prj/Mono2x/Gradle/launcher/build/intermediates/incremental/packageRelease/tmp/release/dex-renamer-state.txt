@@ -1,0 +1,4 @@
+#Sun May 19 15:19:30 GET 2024
+base.0=/Users/splash/PlatformMove/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/splash/PlatformMove/.utmp/RelWithDebInfo/50g5i1h1/armeabi-v7a'
+ninja: no work to do.
