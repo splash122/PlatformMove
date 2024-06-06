@@ -20,6 +20,12 @@ TagManager:
   - CoinsNotEnoughWindow
   - CoinsText
   - Tree
+  - Settings
+  - CloseButton
+  - CheckMusic
+  - CheckSounds
+  - CheckMusicOff
+  - CheckSoundsOff
   layers:
   - Default
   - TransparentFX

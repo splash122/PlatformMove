@@ -9,4 +9,29 @@ public class PlayButton : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
+
+    public void MoveToLobby()
+    {
+        SceneManager.LoadScene("Lobby");
+    }
+
+    public void MoveToCars()
+    {
+        SceneManager.LoadScene("CarSkinsWindow");
+    }
+
+    public void MoveToHero()
+    {
+        SceneManager.LoadScene("HeroSkinsWindow");
+    }
+
+    public void MoveToGround()
+    {
+        SceneManager.LoadScene("GroundSkinsWindow");
+    }
+
+    public void MoveToBack()
+    {
+        SceneManager.LoadScene("BackSkinsWindow");
+    }
 }

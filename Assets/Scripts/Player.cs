@@ -36,6 +36,10 @@ public class Player : MonoBehaviour
     int madeMovesDown;
     public int gainedCoins;
     AudioSource coinsSound;
+    public MusicSettings musicSettings;
+    public bool isOn;
+    public SoundsSettings soundsSettings;
+    public bool isOnSounds;
 
 
 
@@ -64,8 +68,40 @@ public class Player : MonoBehaviour
         resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
         restart.SetActive(false);
         resume.SetActive(false);
-        //coinsText = GameObject.FindWithTag("CoinsText").GetComponent<CoinsText>();
-        //thing = GameObject.FindWithTag("Thing").GetComponent<Rigibody>();
+        isOn = musicSettings.intToBool(PlayerPrefs.GetInt("currentMusic", 1));
+        isOnSounds = soundsSettings.intToBool(PlayerPrefs.GetInt("currentSound", 1));
+        print("Loading music from prefs");
+        print(isOn);
+        print("End loading");
+        if(isOn){
+            //continue playing if is on
+            musicSettings.audioSource.mute = false;
+            isOn = true;
+        }
+        else{
+            musicSettings.audioSource.mute = true;
+            isOn = false;
+        }
+        print("Prefs");
+        print(musicSettings.boolToInt(isOn));
+        print("EndPrefs");
+        PlayerPrefs.SetInt("currentMusic", musicSettings.boolToInt(isOn));
+        print("Loading sounds from prefs");
+        print(isOnSounds);
+        print("End loading");
+        if(isOnSounds){
+            //continue playing sounds if is on
+            soundsSettings.audioSource.mute = false;
+            isOnSounds = true;
+        }
+        else{
+            soundsSettings.audioSource.mute = true;
+            isOnSounds = false;
+        }
+        print("Prefs");
+        print(soundsSettings.boolToInt(isOnSounds));
+        print("EndPrefs");
+        PlayerPrefs.SetInt("currentSound", soundsSettings.boolToInt(isOnSounds));
     }
 
     void Update(){
@@ -312,7 +348,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "HouseMain")
         {
-            //Physics.gravity = new Vector3(0, -20, 0);
+            Physics.gravity = new Vector3(0, -20, 0);
             canMove = false;
             //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             print("collisionHappened");
@@ -324,13 +360,15 @@ public class Player : MonoBehaviour
             }
             else if (CoinsManager.coinsCount >= CoinsManager.neededCount)
             {
+
+
                 print(CoinsManager.coinsCount);
                 print(CoinsManager.neededCount);
                 coinsText.DecrementCoins();
                 int y = SceneManager.GetActiveScene().buildIndex;
                 print("Current Scene number");
                 print(y);
-                SceneManager.LoadScene(y+1);
+                SceneManager.LoadScene("Lobby");
             }
             else
             {

@@ -22,7 +22,7 @@ public class BoundaryDown : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Thing")
         {
@@ -31,5 +31,5 @@ public class BoundaryDown : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
-    }
+    }*/
 }

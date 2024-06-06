@@ -14,20 +14,35 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/2Level.unity
     guid: d892d108c3bb94a1fab435446f578ede
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2.unity
-    guid: ba48c0f67df69463682e006adf5d04f8
-  - enabled: 1
+    guid: 704fe652e9885461cb5d66fd428b8509
+  - enabled: 0
     path: Assets/Scenes/Level3.unity
     guid: 2f2b573e275fd40798f3ae6ddb0a29b7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4.unity
     guid: e6adc74aed20e41139cfcee5921620e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level5.unity
     guid: 77ffb08c955c3475793d8d48cdc0ae00
   - enabled: 1
     path: Assets/Scenes/LastScreen.unity
-    guid: f637e6a5602dc423d9d001ec4885992d
+    guid: 960bd68118d66409bbe732dd6f795b01
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: d1ae4ec14246940a5a6e8003e3a5f420
+  - enabled: 1
+    path: Assets/Scenes/BackSkinsWindow.unity
+    guid: 634f7a13d82d143c5b570b43d5919ffc
+  - enabled: 1
+    path: Assets/Scenes/CarSkinsWindow.unity
+    guid: d699aa17ebe174239b4624b638d2a63e
+  - enabled: 1
+    path: Assets/Scenes/GroundSkinsWindow.unity
+    guid: 676be885a3adf4338bb208bbd734ce40
+  - enabled: 1
+    path: Assets/Scenes/HeroSkinsWindow.unity
+    guid: f823790661aa54b19a23e72d1b8f83b6
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

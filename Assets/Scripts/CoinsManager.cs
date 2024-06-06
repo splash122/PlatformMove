@@ -19,7 +19,7 @@ public class CoinsManager : MonoBehaviour
         coin = GameObject.FindWithTag("Coin");
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
-        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void IncrementCoins()
@@ -28,7 +28,7 @@ public class CoinsManager : MonoBehaviour
         coinsCount += 1;
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
-        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void DecrementCoins()
@@ -36,7 +36,7 @@ public class CoinsManager : MonoBehaviour
         coinsCount -= neededCount;
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
-        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void DecrementIfRestart()
@@ -44,7 +44,7 @@ public class CoinsManager : MonoBehaviour
         coinsCount -= player.gainedCoins;
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
-        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 
     public void BuyCoins()
@@ -52,6 +52,6 @@ public class CoinsManager : MonoBehaviour
         coinsCount += 1;
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
-        coinsText.text = "Монеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
+        coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);
     }
 }
