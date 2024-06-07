@@ -2,478 +2,14 @@
 <project>
   <component name="ChangeListManager">
     <list default="true" id="a3cabf3c-28c5-4025-aa06-e6202874eeab" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_180.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_180.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_270.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_270.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_360.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_360.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_Super.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/CircularProgressBar_Super.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/ClassicProgressBar.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/ClassicProgressBar.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/ProgressBar.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Prefabs/ProgressBar.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/README.txt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/box_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/box_bar.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/circular_bar 2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/circular_bar 2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/circular_bar 3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/circular_bar 3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/circular_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Resources/circular_bar.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scenes.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scenes/Demo.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scenes/Demo.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scripts.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scripts/CircularProgressBar.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scripts/CircularProgressBar.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scripts/ClassicProgressBar.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Scripts/ClassicProgressBar.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/bar_01_animal.cdr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/bar_01_animal.cdr.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/bar_01_animal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/bar_01_animal.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/bar_01_animal.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/bar_01_animal.psd.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png/bar_01_animal_layer_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png/bar_01_animal_layer_1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png/bar_01_animal_layer_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png/bar_01_animal_layer_2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png/bar_01_animal_layer_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_01_animal/png/bar_01_animal_layer_3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/bar_02_candy.cdr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/bar_02_candy.cdr.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/bar_02_candy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/bar_02_candy.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/bar_02_candy.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/bar_02_candy.psd.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/png/bar_02_candy_layer_01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/png/bar_02_candy_layer_01.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/png/bar_02_candy_layer_02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_02_candy/png/bar_02_candy_layer_02.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/bar_03_worm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/bar_03_worm.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/bar_03_worm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/bar_03_worm.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/png/bar_03_worm_layer_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/png/bar_03_worm_layer_1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/png/bar_03_worm_layer_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_03_worm/png/bar_03_worm_layer_2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/bar_04_grey.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/bar_04_grey.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/png/bar_04_grey_layer_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/png/bar_04_grey_layer_1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/png/bar_04_grey_layer_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_04_grey/png/bar_04_grey_layer_2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/bar_05_bow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/bar_05_bow.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png/bar_05_bow_layer_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png/bar_05_bow_layer_1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png/bar_05_bow_layer_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png/bar_05_bow_layer_2.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png/bar_05_bow_layer_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/bar_05_bow/png/bar_05_bow_layer_3.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_01_fan.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_01_fan/circle_01_fan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_01_fan/circle_01_fan.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_01_fan/circle_01_fan_layer_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_01_fan/circle_01_fan_layer_1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_02_spiral.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_02_spiral/circle_02_spiral.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_02_spiral/circle_02_spiral.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_02_spiral/circle_02_spiral.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_02_spiral/circle_02_spiral.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_03_shuriken.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_03_shuriken/circle_03_shuriken.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_03_shuriken/circle_03_shuriken.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_03_shuriken/circle_03_shuriken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_03_shuriken/circle_03_shuriken.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_04_donut.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_04_donut/circle_04_donut.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_04_donut/circle_04_donut.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_04_donut/circle_04_donut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_04_donut/circle_04_donut.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_05_circle.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_05_circle/circle_05_circle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_05_circle/circle_05_circle.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_05_circle/circle_05_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/2D Progress Bar Toolkit/Sprites/circle_05_circle/circle_05_circle.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Basic.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Basic.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/PSDs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/PSDs/Icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/PSDs/Icons.psd.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/PSDs/Icons_Small.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/PSDs/Icons_Small.psd.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Checkmark.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Checkmark.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Menu.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Menu.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Pause.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Pause.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Pointer.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Pointer.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Question Mark.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Question Mark.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Reload.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Prefabs/Reload.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Checkmark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Checkmark.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Menu.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Pause.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Pointer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Pointer.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/QuestionMark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/QuestionMark.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Large/Reload.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Checkmark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Checkmark.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Menu.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Pause.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Pointer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Pointer.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/QuestionMark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/QuestionMark.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art By Kandles/Basic Icons/Textures/Small/Reload.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials/Board.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials/Board.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials/Metal.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials/Metal.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials/Page.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Materials/Page.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Meshes.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Meshes/ClipBoard.fbx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Meshes/ClipBoard.fbx.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Prefab/Clipboard.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Prefab/Clipboard.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/ReadMe.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/ReadMe/ReadMe.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/ReadMe/ReadMe.txt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Scene.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Scene/ExampleScene.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Scene/ExampleScene.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_board_Diffuse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_board_Diffuse.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_board_Normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_board_Normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_metal_Diffuse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_metal_Diffuse.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_metal_MetallicSmoothness.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_metal_MetallicSmoothness.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_metal_Normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_metal_Normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_page_Diffuse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_page_Diffuse.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_page_Normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Clipboard/Textures/clipboard2_page_Normal.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Abstract_Positive_Game_WIn_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Abstract_Positive_Game_WIn_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Blood_Spill.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Blood_Spill.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Blood_and_Gore_Juicy_Squish_Squirt_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Blood_and_Gore_Juicy_Squish_Squirt_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Collect_Item_Bling_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Collect_Item_Bling_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Death_2_with_voice.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Death_2_with_voice.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Game_Collect_Coin_Suck_5.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Game_Collect_Coin_Suck_5.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Game_Over_Arcade_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Game_Over_Arcade_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Gun_Shotgun_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Gun_Shotgun_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Playful_Game_Explosion_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Playful_Game_Explosion_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Poof_Explosion_with_Shine_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Poof_Explosion_with_Shine_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Robotic_Special_Item_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_Game_Sounds_Free/Robotic_Special_Item_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/App_Button_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/App_Button_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Bounce_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Bounce_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Choose_C.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Choose_C.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/End_Call3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/End_Call3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Holographic_UI_Sounds_6.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Holographic_UI_Sounds_6.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Item_Button_Mech_Game.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Item_Button_Mech_Game.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Robotic_Back_Button_5.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Robotic_Back_Button_5.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Scifi_Screen_UI_4.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Scifi_Screen_UI_4.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Tab_Select_15.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Tab_Select_15.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Tab_Select_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Advanced_UI_Free/Tab_Select_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/7th_Dimension.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/7th_Dimension.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Cinematic_Matter_14v2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Cinematic_Matter_14v2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Cinematic_Whoosh_with_Hit.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Cinematic_Whoosh_with_Hit.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Radio_Sound.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Radio_Sound.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Reverse_Fog_Horn.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/Reverse_Fog_Horn.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/WOOSH_FLYBY_AlienShip2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bane_Cinematic's_Free/WOOSH_FLYBY_AlienShip2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Big_Gore_Hit_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Big_Gore_Hit_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Big_Gore_Rip_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Big_Gore_Rip_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Blood_Potion_Pick_Up_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Blood_Potion_Pick_Up_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Skull_Crack_Open.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Skull_Crack_Open.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Spider_Hatchling_Stab_or_Smash.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Bloodlust_Free/Game_Spider_Hatchling_Stab_or_Smash.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Cybernetic_Mini_Gun_4.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Cybernetic_Mini_Gun_4.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Cybernetic_Weapon_Burst_Gun_Shot_11.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Cybernetic_Weapon_Burst_Gun_Shot_11.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Designed_Game_Gun_Shot_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Designed_Game_Gun_Shot_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Designed_Game_Gun_Shot_56.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Designed_Game_Gun_Shot_56.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Futuristic_Weapon_Texture_36.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Cybernetic_Weapons_Free/Futuristic_Weapon_Texture_36.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Bite_Into_Apple_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Bite_Into_Apple_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Book_Drop_7.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Book_Drop_7.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Brushing_Teeth_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Brushing_Teeth_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Car_Door_Exterior_Close_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Car_Door_Exterior_Close_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Carbinated_Drink_Open.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Carbinated_Drink_Open.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Cut_Paper_8.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Cut_Paper_8.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Match_Drop_in_Water_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Match_Drop_in_Water_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Paper_Ball_Drop.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Paper_Ball_Drop.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Seat_Belt_Buckling.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Seat_Belt_Buckling.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Shaving_Cream_Spray_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Shaving_Cream_Spray_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Spray_Bottle_8.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Household_Source_Free/Spray_Bottle_8.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Airy_Mechanism_Movement.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Airy_Mechanism_Movement.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Awkward_Game_Coin_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Awkward_Game_Coin_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Bits_of_Debris_Fall_or_Pour.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Bits_of_Debris_Fall_or_Pour.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Deep_Bass_Liquid_Hit_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Deep_Bass_Liquid_Hit_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Gas_Buzz_Game_FX.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Gas_Buzz_Game_FX.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Glitched_Coin_to_Bank_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Hybrid_Game_Sounds_Free/Glitched_Coin_to_Bank_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Airy_Whoosh.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Airy_Whoosh.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Arrow_Fly_Pass_By_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Arrow_Fly_Pass_By_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Deep_Next_Page_Game_Transition.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Deep_Next_Page_Game_Transition.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Deep_Whoosh_Morph_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Deep_Whoosh_Morph_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Karate_Whoosh_8.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Karate_Whoosh_8.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Mechanical_Machine_Airy_Whoosh_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Mechanical_Machine_Airy_Whoosh_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Plasma_Whoosh_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Plasma_Whoosh_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Swish_Morph_Slide_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Swish_Morph_Slide_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Weapon_Swing_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Modulated_Movement_Free/Weapon_Swing_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Dungeon_Seemless_loop.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Dungeon_Seemless_loop.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Heavy_Rain_2_Loop.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Heavy_Rain_2_Loop.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Thunderstorm_12.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Thunderstorm_12.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Winter_Wind_Seamless.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Organic_Nature_Free/Winter_Wind_Seamless.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Fantasy_Game_Liquid_Recharge.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Fantasy_Game_Liquid_Recharge.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Futuristic_Power_Up_Hit_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Futuristic_Power_Up_Hit_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Absorb_Pick_Up_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Absorb_Pick_Up_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Instant_Spell_Cast_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Instant_Spell_Cast_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Positive_Item_Touch.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Positive_Item_Touch.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Spell_Cast_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Spell_Cast_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Tonal_Level_Unlock.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_Game_Tonal_Level_Unlock.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_RPG_Game_Buff_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Phantom_magic_Free/Magic_RPG_Game_Buff_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Classic_Explosion_7.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Classic_Explosion_7.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Classic_Fall_1.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Classic_Fall_1.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Classic_Player_Death_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Classic_Player_Death_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_DialogLoop.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_DialogLoop.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Hit_Block_4.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Hit_Block_4.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_UI_Select_10.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_UI_Select_10.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Weapon_-Laser_Shot_Burst.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Retro_Game_Free/Retro_Game_Weapon_-Laser_Shot_Burst.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Airy_Gas_Release_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Airy_Gas_Release_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Ceramic_Menu_Button.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Ceramic_Menu_Button.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Deep_Processor_Mech_Drone.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Deep_Processor_Mech_Drone.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Energy_Bling.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Energy_Bling.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Evolving_Cybernetic_Activation_7.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Evolving_Cybernetic_Activation_7.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Futuristic_Air_Transition.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Futuristic_Air_Transition.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Game_Cylinder_Liquid_Break_Open_Hit.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Game_Cylinder_Liquid_Break_Open_Hit.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Health_or_Energy_Game_Recharge_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Health_or_Energy_Game_Recharge_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Metamorph_Game_Item_4_Gear_Movement.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Metamorph_Game_Item_4_Gear_Movement.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Plasma_Gas_Tube_Burst_2.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Plasma_Gas_Tube_Burst_2.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Tonal_Mech_Gear_3.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Epic_Arsenal_Essential_Elements_Demo_Packs/Sci-fi_Evolution_Free/Tonal_Mech_Gear_3.wav.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Music.prefab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scenes/Music.prefab.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/Artifacts/89/893e0cfd32161ec08be7c2d2f53c9a87" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/Artifacts/8e/8e7c571ada9824aee9691ad076d73e8c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/Artifacts/b3/b300e7b44d54f41d37aee53c9cf057a8" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker3-0.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-1.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-2.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-3.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-4.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-5.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-6.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-7.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.ref.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.ref.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.consulo/workspace.xml" afterPath="$PROJECT_DIR$/.consulo/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/BoundaryDown.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/BoundaryDown.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/PlayButton.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayButton.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ArtifactDB" afterPath="$PROJECT_DIR$/Library/ArtifactDB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE-inputdata.json" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE-inputdata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.json" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.payloads" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.payloads" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag_derived" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag_derived" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Search/transactions.db" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SourceAssetDB" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SourceAssetDB-lock" afterPath="$PROJECT_DIR$/Library/SourceAssetDB-lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/cc/cc1aebfb2337ed5c29cb1283dab55aee.json" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/cc/cc1aebfb2337ed5c29cb1283dab55aee.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UndoData.bin" afterPath="$PROJECT_DIR$/Library/UndoData.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UndoStack.bin" afterPath="$PROJECT_DIR$/Library/UndoStack.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ilpp.pid" afterPath="$PROJECT_DIR$/Library/ilpp.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0-0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker1-0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2023.dwlt" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2023.dwlt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -501,9 +37,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,7 +44,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +51,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,9 +59,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,9 +66,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,7 +73,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,9 +94,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,6 +169,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CubeExample.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -670,6 +195,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ThingsBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
@@ -680,40 +213,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="369" column="25" lean-forward="false" selection-start-line="369" selection-start-column="25" selection-end-line="369" selection-end-column="25" />
+        <state relative-caret-position="-83">
+          <caret line="369" column="13" lean-forward="false" selection-start-line="369" selection-start-column="13" selection-end-line="369" selection-end-column="13" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="369" column="25" lean-forward="false" selection-start-line="369" selection-start-column="25" selection-end-line="369" selection-end-column="25" />
+            <state relative-caret-position="-83">
+              <caret line="369" column="13" lean-forward="false" selection-start-line="369" selection-start-column="13" selection-end-line="369" selection-end-column="13" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -731,7 +246,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayButton.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayButton.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayButton.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -788,7 +303,7 @@
       <file leaf-file-name="CoinsManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
+            <state relative-caret-position="153">
               <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -888,9 +403,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1118,11 +633,12 @@
       <workItem from="1717593409657" duration="10820000" />
       <workItem from="1717671084802" duration="8629000" />
       <workItem from="1717686407146" duration="2351000" />
+      <workItem from="1717754356156" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114942000" />
+    <option name="totallyTimeSpent" value="115059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="510" y="25" width="950" height="929" extended-state="0" />
