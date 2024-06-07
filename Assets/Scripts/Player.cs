@@ -116,6 +116,13 @@ public class Player : MonoBehaviour
             dirX = Input.GetAxis("Horizontal");
             dirZ = Input.GetAxis("Vertical");
             player.velocity = new Vector3(dirX, 0, dirZ) * 7f;
+            Vector3 targetForwardDirection = player.velocity;
+
+            //get the rotation that corresponds to facing in the direction of the velocity
+            Quaternion targetRotation = Quaternion.LookRotation(targetForwardDirection);
+
+            //explicity set the rotation of the rigidbody
+            player.MoveRotation(targetRotation);
             if (canMove) {
                 if (dirZ > 0)
                 {
@@ -338,7 +345,7 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.tag == "Thing")
         {
-            Physics.gravity = new Vector3(0, -20, 0);
+            //Physics.gravity = new Vector3(0, -20, 0);
             print("collisionHappened");
             canMove = false;
             GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = true;
@@ -348,18 +355,23 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.tag == "BoundaryLeft"){
             transform.position = new Vector3 (-10f,transform.position.y,transform.position.z);
+            canMove = false;
             Physics.gravity = new Vector3(0, -20, 0);
+
         }
         if (collision.gameObject.tag == "BoundaryRight"){
             transform.position = new Vector3 (10f,transform.position.y,transform.position.z);
+            canMove = false;
             Physics.gravity = new Vector3(0, -20, 0);
         }
         if (collision.gameObject.tag == "BoundaryFar"){
             transform.position = new Vector3 (transform.position.x,transform.position.y,10f);
+            canMove = false;
             Physics.gravity = new Vector3(0, -20, 0);
         }
         if (collision.gameObject.tag == "BoundaryNear"){
             transform.position = new Vector3 (transform.position.x,transform.position.y,-10f);
+            canMove = false;
             Physics.gravity = new Vector3(0, -20, 0);
         }
         if (collision.gameObject.tag == "BoundaryDown"){
