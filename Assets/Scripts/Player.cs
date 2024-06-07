@@ -107,7 +107,7 @@ public class Player : MonoBehaviour
     void Update(){
         if (Input.GetAxis("Vertical") == 0 && Input.GetAxis("Horizontal") == 0)
         {
-            Debug.Log("Nothing pressed");
+            //Debug.Log("Nothing pressed");
 
         }
         else {
@@ -204,7 +204,7 @@ public class Player : MonoBehaviour
             //canMove = true;
         }
     }
-
+/*
     void FixedUpdate(){
 
         // Bit shift the index of the layer (8) to get a bit mask
@@ -228,17 +228,12 @@ public class Player : MonoBehaviour
               Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward * 2), Color.blue,5);
               Debug.Log("Did Hit");
               {
-                  Physics.IgnoreLayerCollision(8,9);
+                  //Physics.IgnoreLayerCollision(8,9);
                   //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
                   //player.MovePosition(transform.position + new Vector3(0,0,0) * Time.deltaTime * 5f);
                   //canMove = false;
                   //Physics.gravity = new Vector3(0,-20,0);
-                  //Physics.IgnoreCollision(GameObject.FindWithTag("BoundaryLeft").GetComponent<Collider>(), this.GetComponent<Collider>());
-                  /*if (hit.collider.tag == "BoundaryLeft")
-                  {
-                      print("It's BoundaryLeft");
-                      transform.position = new Vector3(-5f,oldTrans.y,oldTrans.z);
-                  }*/
+                  //transform.position = new Vector3(-10f,10,20);
               }
           }
         }
@@ -260,7 +255,7 @@ public class Player : MonoBehaviour
                     {
                         print("It's BoundaryRight");
                         transform.position = new Vector3(5f,oldTrans.y,oldTrans.z);
-                    }*/
+                    }
                 }
             }
         }
@@ -280,7 +275,7 @@ public class Player : MonoBehaviour
                     {
                         print("It's BoundaryFar");
                         transform.position = new Vector3(oldTrans.x, oldTrans.y, 5f);
-                    }*/
+                    }
                 }
             }
         }
@@ -296,77 +291,16 @@ public class Player : MonoBehaviour
                     Debug.Log("Did Hit");
                     {
                         Physics.IgnoreLayerCollision(8,9);
-                        /*if (hit.collider.tag == "BoundaryNear")
+                        if (hit.collider.tag == "BoundaryNear")
                         {
                             print("It's BoundaryNear");
                             transform.position = new Vector3(oldTrans.x,oldTrans.y,-5f);
-                        }*/
+                        }
                     }
                 }
             }
         }
         isSwipedDown = false;
-    }
-
-
-/*
-    public IEnumerator Move(Vector2 direction)
-    {
-        
-        for (int i = 0; i < 5; i++)
-        {
-            yield return null;
-            oldTrans = new Vector3(transform.position.x,transform.position.y,transform.position.z);
-            playerToGo = new Vector3(transform.position.x + direction.x / 5, 0.6f, transform.position.z + direction.y / 5);
-            player.transform.position = playerToGo;
-            newToGo = new Vector3(-direction.y, 0, -direction.x);
-            //Camera move
-            if (direction.y > 0)
-            {
-                print("YUp");
-                isSwipedUp = true;
-                MoveBackground();
-                //player.AddForce(transform.up * 5f);
-                //Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
-            }
-            if (direction.y < 0)
-            {
-                print("YDown");
-                isSwipedDown = true;
-                print("CameraY");
-                MoveBackground();
-                //Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
-            }
-            if (direction.x < 0)
-            {
-                print("DirectionXLeft");
-                isSwipedLeft = true;
-                MoveBackground();
-                if (transform.position.x < 0)
-                {
-                    //Camera.main.transform.Rotate(0, 0, -angle);
-                    print("CameraX");
-                    Physics.gravity = new Vector3(-3, 0, 0);
-                }
-            }
-            else if (direction.x > 0)
-            {
-                print("DirectionXRight");
-                isSwipedRight = true;
-                MoveBackground();
-                if (transform.position.x > 0)
-                {
-                    //Camera.main.transform.Rotate(0, 0, angle);
-                    print("CameraX");
-                    print("Gravity enabled");
-                    Physics.gravity = new Vector3(3, 0, 0);
-                    //canMove = false;
-                }
-
-                backGround.transform.rotation = Camera.main.transform.rotation;
-            }
-        }
-        //canMove = false;
     }
     */
 
@@ -411,9 +345,26 @@ public class Player : MonoBehaviour
             GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             //thingsBehavior.ParticlesPlay();
             restart.SetActive(true);
-
-
-
+        }
+        if (collision.gameObject.tag == "BoundaryLeft"){
+            transform.position = new Vector3 (-10f,transform.position.y,transform.position.z);
+            Physics.gravity = new Vector3(0, -20, 0);
+        }
+        if (collision.gameObject.tag == "BoundaryRight"){
+            transform.position = new Vector3 (10f,transform.position.y,transform.position.z);
+            Physics.gravity = new Vector3(0, -20, 0);
+        }
+        if (collision.gameObject.tag == "BoundaryFar"){
+            transform.position = new Vector3 (transform.position.x,transform.position.y,10f);
+            Physics.gravity = new Vector3(0, -20, 0);
+        }
+        if (collision.gameObject.tag == "BoundaryNear"){
+            transform.position = new Vector3 (transform.position.x,transform.position.y,-10f);
+            Physics.gravity = new Vector3(0, -20, 0);
+        }
+        if (collision.gameObject.tag == "BoundaryDown"){
+            Destroy(this);
+            restart.SetActive(true);
         }
     }
 
