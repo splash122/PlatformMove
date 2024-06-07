@@ -105,96 +105,103 @@ public class Player : MonoBehaviour
     }
 
     void Update(){
-        if(canMove) {
+        if (Input.GetAxis("Vertical") == 0 && Input.GetAxis("Horizontal") == 0)
+        {
+            Debug.Log("Nothing pressed");
 
+        }
+        else {
             Vector3 m_Input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             oldTrans = new Vector3(transform.position.x, transform.position.y, transform.position.z);
             dirX = Input.GetAxis("Horizontal");
             dirZ = Input.GetAxis("Vertical");
-            player.velocity = new Vector3(dirX,0,dirZ)*5f;
-            //player.MovePosition(transform.position + m_Input * Time.deltaTime * 10f);
-
-            if (dirZ > 0)
-            {
-                print("YUp");
-                isSwipedUp = true;
-
-                if (transform.position.z > 0)
+            player.velocity = new Vector3(dirX, 0, dirZ) * 7f;
+            if (canMove) {
+                if (dirZ > 0)
                 {
-                    madeMovesUp++;
-                    print("madeMovesUp");
-                    print(madeMovesUp);
-                    print("Rotation");
-                    print(backGround.transform.rotation);
-                    if(backGround.transform.rotation.x>0.2) {
-                        Camera.main.transform.RotateAround(TargetVertical.position, Vector3.left, angle);
+                    print("YUp");
+                    isSwipedUp = true;
+
+                    if (transform.position.z > 0)
+                    {
+                        madeMovesUp++;
+                        print("madeMovesUp");
+                        print(madeMovesUp);
+                        print("Rotation");
+                        print(backGround.transform.rotation);
+                        if (backGround.transform.rotation.x > 0.2) {
+                            Camera.main.transform.RotateAround(TargetVertical.position, Vector3.left, angle);
+                        }
+                        print("CameraY");
+                        Physics.gravity = new Vector3(0, 0, 3);
+                        //canMove = false;
                     }
-                    print("CameraY");
-                    Physics.gravity = new Vector3(0, 0, 3);
                 }
-            }
-            if (dirZ < 0)
-            {
-                print("YDown");
-                isSwipedDown = true;
-
-                if (transform.position.z < 0)
+                if (dirZ < 0)
                 {
-                    madeMovesDown++;
-                    print("madeMovesDown");
-                    print(madeMovesDown);
-                    print("Rotation");
-                    print(backGround.transform.rotation);
-                    if(backGround.transform.rotation.x<0.3) {
-                        Camera.main.transform.RotateAround(TargetVertical.position, Vector3.right, angle);
+                    print("YDown");
+                    isSwipedDown = true;
+
+                    if (transform.position.z < 0)
+                    {
+                        madeMovesDown++;
+                        print("madeMovesDown");
+                        print(madeMovesDown);
+                        print("Rotation");
+                        print(backGround.transform.rotation);
+                        if (backGround.transform.rotation.x < 0.3) {
+                            Camera.main.transform.RotateAround(TargetVertical.position, Vector3.right, angle);
+                        }
+                        print("CameraY");
+                        Physics.gravity = new Vector3(0, 0, -3);
+                        //canMove = false;
                     }
-                    print("CameraY");
-                    Physics.gravity = new Vector3(0, 0, -3);
                 }
-            }
-            if (dirX < 0)
-            {
-                print("DirectionXLeft");
-                isSwipedLeft = true;
-
-                if (transform.position.x < 0)
+                if (dirX < 0)
                 {
-                    madeMovesLeft++;
-                    print("madeMovesLeft");
-                    print(madeMovesLeft);
-                    print("Rotation");
-                    print(backGround.transform.rotation);
-                    if(backGround.transform.rotation.z>-0.05) {
-                        Camera.main.transform.Rotate(0, 0, -angle);
+                    print("DirectionXLeft");
+                    isSwipedLeft = true;
+
+                    if (transform.position.x < 0)
+                    {
+                        madeMovesLeft++;
+                        print("madeMovesLeft");
+                        print(madeMovesLeft);
+                        print("Rotation");
+                        print(backGround.transform.rotation);
+                        if (backGround.transform.rotation.z > -0.05) {
+                            Camera.main.transform.Rotate(0, 0, -angle);
+                        }
+                        print("CameraX");
+                        Physics.gravity = new Vector3(-3, 0, 0);
+                        //canMove = false;
                     }
-                    print("CameraX");
-                    Physics.gravity = new Vector3(-3, 0, 0);
                 }
-            }
-            else if (dirX > 0)
-            {
-                print("DirectionXRight");
-                isSwipedRight = true;
-
-                print(madeMovesRight);
-                if (transform.position.x > 0)
+                else if (dirX > 0)
                 {
-                    madeMovesRight++;
-                    print("madeMovesRight");
+                    print("DirectionXRight");
+                    isSwipedRight = true;
+
                     print(madeMovesRight);
-                    print("Rotation");
-                    print(backGround.transform.rotation);
-                    if(backGround.transform.rotation.z<0.05) {
-                        Camera.main.transform.Rotate(0, 0, angle);
+                    if (transform.position.x > 0)
+                    {
+                        madeMovesRight++;
+                        print("madeMovesRight");
+                        print(madeMovesRight);
+                        print("Rotation");
+                        print(backGround.transform.rotation);
+                        if (backGround.transform.rotation.z < 0.05) {
+                            Camera.main.transform.Rotate(0, 0, angle);
+                        }
+                        print("CameraX");
+                        print("Gravity enabled");
+                        Physics.gravity = new Vector3(3, 0, 0);
+                        //canMove = false;
                     }
-                    print("CameraX");
-                    print("Gravity enabled");
-                    Physics.gravity = new Vector3(3, 0, 0);
                 }
-
-
+                backGround.transform.rotation = Camera.main.transform.rotation;
             }
-            backGround.transform.rotation = Camera.main.transform.rotation;
+            //canMove = true;
         }
     }
 
@@ -222,6 +229,10 @@ public class Player : MonoBehaviour
               Debug.Log("Did Hit");
               {
                   Physics.IgnoreLayerCollision(8,9);
+                  //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
+                  //player.MovePosition(transform.position + new Vector3(0,0,0) * Time.deltaTime * 5f);
+                  //canMove = false;
+                  //Physics.gravity = new Vector3(0,-20,0);
                   //Physics.IgnoreCollision(GameObject.FindWithTag("BoundaryLeft").GetComponent<Collider>(), this.GetComponent<Collider>());
                   /*if (hit.collider.tag == "BoundaryLeft")
                   {
@@ -277,7 +288,6 @@ public class Player : MonoBehaviour
 
         if (isSwipedDown){
             {
-                
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left * 2), out hit,
                         1f,
                         layerMask))
@@ -299,11 +309,11 @@ public class Player : MonoBehaviour
     }
 
 
-
+/*
     public IEnumerator Move(Vector2 direction)
     {
         
-        for (int i = 0; i < 1; i++)
+        for (int i = 0; i < 5; i++)
         {
             yield return null;
             oldTrans = new Vector3(transform.position.x,transform.position.y,transform.position.z);
@@ -315,6 +325,8 @@ public class Player : MonoBehaviour
             {
                 print("YUp");
                 isSwipedUp = true;
+                MoveBackground();
+                //player.AddForce(transform.up * 5f);
                 //Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
             }
             if (direction.y < 0)
@@ -322,12 +334,14 @@ public class Player : MonoBehaviour
                 print("YDown");
                 isSwipedDown = true;
                 print("CameraY");
+                MoveBackground();
                 //Camera.main.transform.RotateAround(TargetVertical.position, newToGo.normalized, angle);
             }
             if (direction.x < 0)
             {
                 print("DirectionXLeft");
                 isSwipedLeft = true;
+                MoveBackground();
                 if (transform.position.x < 0)
                 {
                     //Camera.main.transform.Rotate(0, 0, -angle);
@@ -339,18 +353,22 @@ public class Player : MonoBehaviour
             {
                 print("DirectionXRight");
                 isSwipedRight = true;
+                MoveBackground();
                 if (transform.position.x > 0)
                 {
                     //Camera.main.transform.Rotate(0, 0, angle);
                     print("CameraX");
                     print("Gravity enabled");
                     Physics.gravity = new Vector3(3, 0, 0);
+                    //canMove = false;
                 }
 
                 backGround.transform.rotation = Camera.main.transform.rotation;
             }
         }
+        //canMove = false;
     }
+    */
 
     private void OnCollisionEnter(Collision collision)
     {
