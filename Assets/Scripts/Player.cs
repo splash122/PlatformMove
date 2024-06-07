@@ -106,12 +106,14 @@ public class Player : MonoBehaviour
 
     void Update(){
         if(canMove) {
+
             Vector3 m_Input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             oldTrans = new Vector3(transform.position.x, transform.position.y, transform.position.z);
             dirX = Input.GetAxis("Horizontal");
             dirZ = Input.GetAxis("Vertical");
             player.velocity = new Vector3(dirX,0,dirZ)*5f;
             //player.MovePosition(transform.position + m_Input * Time.deltaTime * 10f);
+
             if (dirZ > 0)
             {
                 print("YUp");
@@ -219,11 +221,13 @@ public class Player : MonoBehaviour
               Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward * 2), Color.blue,5);
               Debug.Log("Did Hit");
               {
-                  if (hit.collider.tag == "BoundaryLeft")
+                  Physics.IgnoreLayerCollision(8,9);
+                  //Physics.IgnoreCollision(GameObject.FindWithTag("BoundaryLeft").GetComponent<Collider>(), this.GetComponent<Collider>());
+                  /*if (hit.collider.tag == "BoundaryLeft")
                   {
                       print("It's BoundaryLeft");
                       transform.position = new Vector3(-5f,oldTrans.y,oldTrans.z);
-                  }
+                  }*/
               }
           }
         }
@@ -239,11 +243,13 @@ public class Player : MonoBehaviour
                 Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back * 2), Color.green,5);
                 Debug.Log("Did Hit");
                 {
-                    if (hit.collider.tag == "BoundaryRight")
+                    Physics.IgnoreLayerCollision(8,9);
+                    //Physics.IgnoreCollision(thing.GetComponent<Collider>(), GetComponent<Collider>());
+                    /*if (hit.collider.tag == "BoundaryRight")
                     {
                         print("It's BoundaryRight");
                         transform.position = new Vector3(5f,oldTrans.y,oldTrans.z);
-                    }
+                    }*/
                 }
             }
         }
@@ -258,11 +264,12 @@ public class Player : MonoBehaviour
                 Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right * 2), Color.red, 5);
                 Debug.Log("Did Hit");
                 {
-                    if (hit.collider.tag == "BoundaryFar")
+                    Physics.IgnoreLayerCollision(8,9);
+                    /*if (hit.collider.tag == "BoundaryFar")
                     {
                         print("It's BoundaryFar");
                         transform.position = new Vector3(oldTrans.x, oldTrans.y, 5f);
-                    }
+                    }*/
                 }
             }
         }
@@ -278,11 +285,12 @@ public class Player : MonoBehaviour
                     Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.left * 2), Color.yellow,5);
                     Debug.Log("Did Hit");
                     {
-                        if (hit.collider.tag == "BoundaryNear")
+                        Physics.IgnoreLayerCollision(8,9);
+                        /*if (hit.collider.tag == "BoundaryNear")
                         {
                             print("It's BoundaryNear");
                             transform.position = new Vector3(oldTrans.x,oldTrans.y,-5f);
-                        }
+                        }*/
                     }
                 }
             }
@@ -291,7 +299,7 @@ public class Player : MonoBehaviour
     }
 
 
-/*
+
     public IEnumerator Move(Vector2 direction)
     {
         
@@ -343,7 +351,7 @@ public class Player : MonoBehaviour
             }
         }
     }
-*/
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "HouseMain")

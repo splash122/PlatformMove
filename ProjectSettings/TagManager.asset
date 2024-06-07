@@ -26,6 +26,8 @@ TagManager:
   - CheckSounds
   - CheckMusicOff
   - CheckSoundsOff
+  - LeftCollider
+  - LeftTrigger
   layers:
   - Default
   - TransparentFX
@@ -35,8 +37,8 @@ TagManager:
   - UI
   - Camera
   - Thing
-  - 
-  - 
+  - Player
+  - Boundary
   - 
   - 
   - 
