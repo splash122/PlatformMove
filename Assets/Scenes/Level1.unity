@@ -16182,9 +16182,9 @@ GameObject:
   - component: {fileID: 2062440938}
   - component: {fileID: 2062440937}
   - component: {fileID: 2062440936}
-  - component: {fileID: 2062440935}
+  - component: {fileID: 2062440939}
   m_Layer: 5
-  m_Name: CoinButton (1)
+  m_Name: AdsResumeButton (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16210,20 +16210,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -12}
   m_SizeDelta: {x: 200, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2062440935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2062440933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d96caf8336ce42169c1aab56ce3a0b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 925968671}
-  coinsText: {fileID: 1697764483}
 --- !u!114 &2062440936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16268,9 +16254,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2062440935}
-        m_TargetAssemblyTypeName: CoinButton, Assembly-CSharp
-        m_MethodName: CoinBuy
+      - m_Target: {fileID: 2062440939}
+        m_TargetAssemblyTypeName: ResumeButton, Assembly-CSharp
+        m_MethodName: ResumeIfThingCollided
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16318,6 +16304,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062440933}
   m_CullTransparentMesh: 1
+--- !u!114 &2062440939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062440933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34cc133a17cc74fbe983e24f190a027c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 925968671}
 --- !u!1 &2064682425
 GameObject:
   m_ObjectHideFlags: 0

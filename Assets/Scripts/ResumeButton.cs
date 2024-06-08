@@ -12,4 +12,14 @@ public class ResumeButton : MonoBehaviour
         GameObject.FindWithTag("CoinsNotEnoughWindow").SetActive(false);
 
     }
+    public void ResumeIfThingCollided()
+    {
+        //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = false;
+
+        GameObject.FindWithTag("Restart").SetActive(false);
+        GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = false;
+        GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = false;
+        player.canMove = true;
+
+    }
 }
