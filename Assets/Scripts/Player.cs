@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     private GameObject resume;
     public Player playGameObj;
     public CoinsManager coinsText;
+    public CoinsSkinManager skinsText;
     public Progressbar1 progressBar;
     public ThingsBehavior thingsBehavior;
     public float movementSpeed;
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
     int madeMovesUp;
     int madeMovesDown;
     public int gainedCoins;
+    public int gainedSkinsCoins;
     AudioSource coinsSound;
     public MusicSettings musicSettings;
     public bool isOn;
@@ -382,14 +384,23 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Coin")
+        if (other.gameObject.tag == "Ticket")
         {
             coinsSound.Play();
             Destroy(other.gameObject);
             coinsText.IncrementCoins();
             gainedCoins++;
-            print("Gained coins");
+            print("Gained tickets");
             print(gainedCoins);
+        }
+        if (other.gameObject.tag == "Coin")
+        {
+            coinsSound.Play();
+            Destroy(other.gameObject);
+            skinsText.IncrementSkinsCoins();
+            gainedSkinsCoins++;
+            print("Gained coins");
+            print(gainedSkinsCoins);
         }
     }
     

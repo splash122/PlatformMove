@@ -16,7 +16,7 @@ public class CoinsManager : MonoBehaviour
     void Start()
     {
         neededCount = gameManager.coinsForLevel;
-        coin = GameObject.FindWithTag("Coin");
+        coin = GameObject.FindWithTag("Ticket");
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
         coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);

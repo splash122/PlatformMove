@@ -28,6 +28,7 @@ TagManager:
   - CheckSoundsOff
   - LeftCollider
   - LeftTrigger
+  - Ticket
   layers:
   - Default
   - TransparentFX
