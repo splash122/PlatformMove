@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     private Rigidbody player;
-    private Rigidbody thing;
-    private CubeMover floor;
-    private Vector3 scale;
     public InputAction move;
     private Vector2 newToGo;
     public Transform TargetVertical;
@@ -43,23 +40,6 @@ public class Player : MonoBehaviour
     public SoundsSettings soundsSettings;
     public bool isOnSounds;
 
-
-
-    /*private void OnEnable()
-    {
-        print("enabling");
-        
-        move.Enable();
-        move.performed += context => { StartCoroutine(Move(context.ReadValue<Vector2>())); };
-        SwipeDetection.instance.swipePerformed += context => { StartCoroutine(Move(context)); };
-    }
-    private void OnDisable()
-    {
-        print("disabling");
-        move.performed -= context => { StartCoroutine(Move(context.ReadValue<Vector2>())); };
-        SwipeDetection.instance.swipePerformed -= context => { StartCoroutine(Move(context)); };   
-        move.Disable();
-    }*/
 
     void Start()
     {
@@ -213,105 +193,7 @@ public class Player : MonoBehaviour
             //canMove = true;
         }
     }
-/*
-    void FixedUpdate(){
 
-        // Bit shift the index of the layer (8) to get a bit mask
-        int layerMask = 1 << 7;
-
-        // This would cast rays only against colliders in layer 8.
-        // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
-        layerMask = ~layerMask;
-
-        RaycastHit hit;
-        // Does the ray intersect any objects excluding the player layer
-        
-        if (isSwipedLeft)
-        {
-            print("before raycastLeft");
-          if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward * 2), out hit,
-                        1f,
-                        layerMask))
-          { 
-              print("It's draw ray");
-              Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward * 2), Color.blue,5);
-              Debug.Log("Did Hit");
-              {
-                  //Physics.IgnoreLayerCollision(8,9);
-                  //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
-                  //player.MovePosition(transform.position + new Vector3(0,0,0) * Time.deltaTime * 5f);
-                  //canMove = false;
-                  //Physics.gravity = new Vector3(0,-20,0);
-                  //transform.position = new Vector3(-10f,10,20);
-              }
-          }
-        }
-        isSwipedLeft = false;
-        
-        if (isSwipedRight) 
-        {
-            print("before raycastRight");
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back * 2), out hit,
-                    1f,
-                    layerMask)) 
-            {
-                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back * 2), Color.green,5);
-                Debug.Log("Did Hit");
-                {
-                    Physics.IgnoreLayerCollision(8,9);
-                    //Physics.IgnoreCollision(thing.GetComponent<Collider>(), GetComponent<Collider>());
-                    /*if (hit.collider.tag == "BoundaryRight")
-                    {
-                        print("It's BoundaryRight");
-                        transform.position = new Vector3(5f,oldTrans.y,oldTrans.z);
-                    }
-                }
-            }
-        }
-        isSwipedRight = false;
-
-        if (isSwipedUp)
-        {
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right * 2), out hit,
-                    1f,
-                    layerMask))
-            {
-                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right * 2), Color.red, 5);
-                Debug.Log("Did Hit");
-                {
-                    Physics.IgnoreLayerCollision(8,9);
-                    /*if (hit.collider.tag == "BoundaryFar")
-                    {
-                        print("It's BoundaryFar");
-                        transform.position = new Vector3(oldTrans.x, oldTrans.y, 5f);
-                    }
-                }
-            }
-        }
-        isSwipedUp = false;
-
-        if (isSwipedDown){
-            {
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.left * 2), out hit,
-                        1f,
-                        layerMask))
-                {
-                    Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.left * 2), Color.yellow,5);
-                    Debug.Log("Did Hit");
-                    {
-                        Physics.IgnoreLayerCollision(8,9);
-                        if (hit.collider.tag == "BoundaryNear")
-                        {
-                            print("It's BoundaryNear");
-                            transform.position = new Vector3(oldTrans.x,oldTrans.y,-5f);
-                        }
-                    }
-                }
-            }
-        }
-        isSwipedDown = false;
-    }
-    */
 
     private void OnCollisionEnter(Collision collision)
     {

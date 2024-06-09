@@ -5,23 +5,96 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638533021630000000
-    m_Hash: 3757678045
+      ticks: 638535364660000000
+    m_Hash: 3162047416
   m_LockFileStatus:
     m_FilePath: /Users/splash/PlatformMove/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638533021630000000
-    m_Hash: 4207313712
+      ticks: 638535364670000000
+    m_Hash: 1569056008
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: /Users/splash/Downloads/UnityEditorConsuloPlugin-master/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638241901680000000
+    m_Hash: 285201970
+  - m_FilePath: /Users/splash/Downloads/UnityEditorConsuloPlugin-master
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: /Users/splash/PlatformMove/Packages
 m_EditorVersion: 2023.2.19f1 (95c298372b1e)
 m_ResolvedPackages:
+- packageId: com.consulo.ide@file:/Users/splash/Downloads/UnityEditorConsuloPlugin-master
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.0
+  source: 4
+  resolvedPath: /Users/splash/Downloads/UnityEditorConsuloPlugin-master
+  assetPath: Packages/com.consulo.ide
+  name: com.consulo.ide
+  displayName: UnityEditor Consulo Plugin
+  author:
+    name: https://consulo.io
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Plugin for UnityEditor add some usefull actions for Consulo
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1

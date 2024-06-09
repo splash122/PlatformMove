@@ -4,10 +4,12 @@ using UnityEngine.UI;
 public class CoinsSkinManager : MonoBehaviour
 {
     private GameObject coinsSkin;
+    public GameObject textNotEnough;
     public Text skinsText;
     public static int skinsCount = 0;
     private float resultProgress;
     public GameManager gameManager;
+
     // Start is called before the first frame update
 
     void Start()
@@ -15,6 +17,8 @@ public class CoinsSkinManager : MonoBehaviour
         coinsSkin = GameObject.FindWithTag("Coin");
         resultProgress = Mathf.Round(skinsCount);
         skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
+        textNotEnough = GameObject.FindWithTag("MainCamera").GetComponent<HeroWindowController>().textNotEnough;
+
     }
 
     public void IncrementSkinsCoins()
@@ -26,9 +30,16 @@ public class CoinsSkinManager : MonoBehaviour
 
     public void DecrementIfSkinBought(int coinsForSkin)
     {
-        skinsCount -= coinsForSkin;
-        resultProgress = Mathf.Round(skinsCount);
-        skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
+        if(skinsCount>=coinsForSkin){
+            skinsCount -= coinsForSkin;
+            resultProgress = Mathf.Round(skinsCount);
+            skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
+
+        }
+        else{
+            textNotEnough.SetActive(true);
+        }
+
     }
 
     public void BuySkinsCoins()

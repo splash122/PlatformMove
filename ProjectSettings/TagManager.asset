@@ -30,6 +30,7 @@ TagManager:
   - LeftTrigger
   - Ticket
   - TextNotEnough
+  - HeroController
   layers:
   - Default
   - TransparentFX

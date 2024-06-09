@@ -17,7 +17,7 @@ public class Progressbar1 : MonoBehaviour
     {
 
         slider = gameObject.GetComponent<Slider>();
-        particleSystem = GameObject.Find("ProgressBarParticles").GetComponent<ParticleSystem>();
+        //particleSystem = GameObject.Find("ProgressBarParticles").GetComponent<ParticleSystem>();
     }
 
     public void Update()

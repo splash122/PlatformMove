@@ -22,7 +22,7 @@
     <modules />
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="platformAndPlugins" />
+    <property name="options.lastSelected" value="sdks.list" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
