@@ -29,6 +29,7 @@ TagManager:
   - LeftCollider
   - LeftTrigger
   - Ticket
+  - TextNotEnough
   layers:
   - Default
   - TransparentFX
