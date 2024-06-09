@@ -31,6 +31,7 @@ TagManager:
   - Ticket
   - TextNotEnough
   - HeroController
+  - CanvasCamera
   layers:
   - Default
   - TransparentFX

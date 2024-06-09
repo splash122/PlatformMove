@@ -17,7 +17,7 @@ public class CoinsSkinManager : MonoBehaviour
         coinsSkin = GameObject.FindWithTag("Coin");
         resultProgress = Mathf.Round(skinsCount);
         skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
-        textNotEnough = GameObject.FindWithTag("MainCamera").GetComponent<HeroWindowController>().textNotEnough;
+
 
     }
 
@@ -37,6 +37,7 @@ public class CoinsSkinManager : MonoBehaviour
 
         }
         else{
+            textNotEnough = GameObject.FindWithTag("CanvasCamera").GetComponent<HeroWindowController>().textNotEnough;
             textNotEnough.SetActive(true);
         }
 
