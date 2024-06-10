@@ -14632,6 +14632,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 383882978}
     m_Modifications:
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: coinsText
+      value: 
+      objectReference: {fileID: 1697764483}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: skinsText
+      value: 
+      objectReference: {fileID: 567720933}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: backGround
+      value: 
+      objectReference: {fileID: 482974151}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: playGameObj
+      value: 
+      objectReference: {fileID: 2141286428}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: progressBar
+      value: 
+      objectReference: {fileID: 1882449407}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: musicSettings
+      value: 
+      objectReference: {fileID: 1386093798}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: TargetVertical
+      value: 
+      objectReference: {fileID: 28209522}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: soundsSettings
+      value: 
+      objectReference: {fileID: 1774700512}
+    - target: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+      propertyPath: thingsBehavior
+      value: 
+      objectReference: {fileID: 2013052231}
     - target: {fileID: 7337742794082161443, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
       propertyPath: m_Name
       value: Policeman
@@ -14915,6 +14951,10 @@ PrefabInstance:
       propertyPath: skinsText
       value: 
       objectReference: {fileID: 567720933}
+    - target: {fileID: 4925075776139100740, guid: d879694acebcf4348a479d0835525788, type: 3}
+      propertyPath: backGround
+      value: 
+      objectReference: {fileID: 482974151}
     - target: {fileID: 4925075776139100740, guid: d879694acebcf4348a479d0835525788, type: 3}
       propertyPath: playGameObj
       value: 
@@ -16470,6 +16510,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7971149914157828505, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
   m_PrefabInstance: {fileID: 1768893984}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2141286428 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1445821246058447363, guid: a36836159f11543e8a5c3f4a02dc522b, type: 3}
+  m_PrefabInstance: {fileID: 1768893984}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3da9c34beca0c47e1adc527929203259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &371179524793527457
 PrefabInstance:
   m_ObjectHideFlags: 0
