@@ -32,6 +32,7 @@ TagManager:
   - TextNotEnough
   - HeroController
   - CanvasCamera
+  - PlayerParent
   layers:
   - Default
   - TransparentFX
