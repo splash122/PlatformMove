@@ -31,7 +31,6 @@ public class MusicSettings : MonoBehaviour
         print("Prefs");
         print(boolToInt(isOn));
         print("EndPrefs");
-        PlayerPrefs.SetInt("currentMusic", boolToInt(isOn));
     }
 
     public void ButtonClicked(){

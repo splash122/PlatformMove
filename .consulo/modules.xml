@@ -172,6 +172,7 @@
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_10_0" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/BackGround.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/BackGround.cs.meta" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CloseButton.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CoinButton.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CoinButton.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/HeroSkinsBuy.cs" />

@@ -16,7 +16,7 @@ public class SettingsButton : MonoBehaviour
 
     public void SettingsWindow()
     {
-        player.canMove = false;
+        //player.canMove = false;
         settings.SetActive(true);
     }
 

@@ -10,7 +10,6 @@ public class CoinsManager : MonoBehaviour
     public static int neededCount;
     public float resultProgress;
     public GameManager gameManager;
-    public Player player;
     // Start is called before the first frame update
 
     void Start()
@@ -41,7 +40,7 @@ public class CoinsManager : MonoBehaviour
 
     public void DecrementIfRestart()
     {
-        coinsCount -= player.gainedCoins;
+        coinsCount -= GameObject.FindWithTag("Player").GetComponent<Player>().gainedCoins;
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);
         coinsText.text = "Билеты: " + Mathf.Round(coinsCount) + "/" + Mathf.Round(neededCount);

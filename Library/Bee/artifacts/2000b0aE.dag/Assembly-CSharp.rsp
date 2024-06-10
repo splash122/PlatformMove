@@ -378,6 +378,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2023.2.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2023.2.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/BackGround.cs"
+"Assets/Scripts/Buttons/CloseButton.cs"
 "Assets/Scripts/Buttons/CoinButton.cs"
 "Assets/Scripts/Buttons/HeroSkinsBuy.cs"
 "Assets/Scripts/Buttons/LevelText.cs"

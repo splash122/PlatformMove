@@ -18,8 +18,8 @@ public class Player : MonoBehaviour
     private bool isSwipedUp;
     private bool isSwipedDown;
     private Vector3 oldTrans;
-    private GameObject restart;
-    private GameObject resume;
+    public GameObject restart;
+    public GameObject resume;
     public Player playGameObj;
     public CoinsManager coinsText;
     public CoinsSkinManager skinsText;

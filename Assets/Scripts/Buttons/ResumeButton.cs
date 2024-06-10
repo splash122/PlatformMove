@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class ResumeButton : MonoBehaviour
 {
-    public Player player;
     public void Resume()
     {
         //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = false;
-        player.canMove = true;
+        GameObject.FindWithTag("Player").GetComponent<Player>().canMove = true;
         GameObject.FindWithTag("CoinsNotEnoughWindow").SetActive(false);
 
     }
@@ -19,7 +18,7 @@ public class ResumeButton : MonoBehaviour
         GameObject.FindWithTag("Restart").SetActive(false);
         GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = false;
         GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = false;
-        player.canMove = true;
+        GameObject.FindWithTag("Player").GetComponent<Player>().canMove = true;
 
     }
 }
