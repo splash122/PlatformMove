@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     int madeMovesDown;
     public int gainedCoins;
     public int gainedSkinsCoins;
-    AudioSource coinsSound;
+    public AudioSource coinsSound;
     public MusicSettings musicSettings;
     public bool isOn;
     public SoundsSettings soundsSettings;
@@ -43,13 +43,13 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        coinsSound = GetComponent<AudioSource>();
+        coinsSound = GameObject.Find("Sounds").GetComponent<AudioSource>();
         playGameObj = GetComponent<Player>();
         player = GetComponent<Rigidbody>();
         restart = GameObject.FindWithTag("Restart");
         resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
-        restart.SetActive(false);
-        resume.SetActive(false);
+        //restart.SetActive(false);
+        //resume.SetActive(false);
         isOn = musicSettings.intToBool(PlayerPrefs.GetInt("currentMusic", 1));
         isOnSounds = soundsSettings.intToBool(PlayerPrefs.GetInt("currentSound", 1));
         print("Loading music from prefs");

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ChangeHeroes : MonoBehaviour
 {
+    private GameObject restart;
+    private GameObject resume;
+
 
     //public Object girlPrefab;
     //public Object boyPrefab;
@@ -14,6 +17,10 @@ public class ChangeHeroes : MonoBehaviour
 
     // This script will simply instantiate the Prefab when the game starts.
     void Start() {
+        restart = GameObject.FindWithTag("Restart");
+        resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
+        restart.SetActive(false);
+        resume.SetActive(false);
         string hero = PlayerPrefs.GetString("Hero", "Player");
         print("Hero");
         print(hero);

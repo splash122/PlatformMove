@@ -11,6 +11,14 @@ public class SoundsSettings : MonoBehaviour
     public GameObject soundsCheckmarkOff;
     // Start is called before the first frame update
     void Start(){
+        string heroName = PlayerPrefs.GetString("Hero", "Player");
+        GameObject hero = GameObject.Find(heroName);
+        print("HeroForMusicFound");
+        print(hero);
+        //AudioSource girlSource = GameObject.FindGameObjectWithTag("GameObject1").GetComponent<AudioSource>();
+        //GetComponent<AudioSource>().clip = girlSource.clip;
+        //audioSource = hero.GetComponent<AudioSource>();
+
         soundsCheckmark = GameObject.FindWithTag("CheckSounds");
         soundsCheckmarkOff = GameObject.FindWithTag("CheckSoundsOff");
 
