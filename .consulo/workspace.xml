@@ -2,11 +2,9 @@
 <project>
   <component name="ChangeListManager">
     <list default="true" id="90e67667-0025-495b-99a8-1b830d7ddd97" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Search/transactions.db" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SourceAssetDB" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -618,12 +616,12 @@
       <workItem from="1717937482343" duration="325000" />
       <workItem from="1717940073222" duration="6303000" />
       <workItem from="1718023065107" duration="473000" />
-      <workItem from="1718023551469" duration="14783000" />
+      <workItem from="1718023551469" duration="14871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94576000" />
+    <option name="totallyTimeSpent" value="94664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="297" y="25" width="1122" height="929" extended-state="0" />

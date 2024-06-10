@@ -14968,6 +14968,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1386093798}
     - target: {fileID: 4925075776139100740, guid: d879694acebcf4348a479d0835525788, type: 3}
+      propertyPath: TargetVertical
+      value: 
+      objectReference: {fileID: 28209522}
+    - target: {fileID: 4925075776139100740, guid: d879694acebcf4348a479d0835525788, type: 3}
       propertyPath: soundsSettings
       value: 
       objectReference: {fileID: 1774700512}
