@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ChangeHeroes : MonoBehaviour
 {
-    private GameObject restart;
-    private GameObject resume;
+    public GameObject restart;
+    public GameObject resume;
 
 
     //public Object girlPrefab;
@@ -19,8 +19,8 @@ public class ChangeHeroes : MonoBehaviour
     void Start() {
         restart = GameObject.FindWithTag("Restart");
         resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
-        restart.SetActive(false);
-        resume.SetActive(false);
+        //restart.SetActive(false);
+        //resume.SetActive(false);
         string hero = PlayerPrefs.GetString("Hero", "Player");
         print("Hero");
         print(hero);

@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
     public bool isOn;
     public SoundsSettings soundsSettings;
     public bool isOnSounds;
+    public ChangeHeroes changeHeroes;
 
 
     void Start()
@@ -48,8 +49,8 @@ public class Player : MonoBehaviour
         player = GetComponent<Rigidbody>();
         restart = GameObject.FindWithTag("Restart");
         resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
-        //restart.SetActive(false);
-        //resume.SetActive(false);
+        restart.SetActive(false);
+        resume.SetActive(false);
         isOn = musicSettings.intToBool(PlayerPrefs.GetInt("currentMusic", 1));
         isOnSounds = soundsSettings.intToBool(PlayerPrefs.GetInt("currentSound", 1));
         print("Loading music from prefs");
@@ -238,14 +239,17 @@ public class Player : MonoBehaviour
             restart.SetActive(true);
         }
         if (collision.gameObject.tag == "BoundaryLeft"){
-            transform.position = new Vector3 (-10f,transform.position.y,transform.position.z);
             canMove = false;
+            //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
+            transform.position = new Vector3 (-10f,transform.position.y,transform.position.z);
+            //player.MovePosition(transform.position + new Vector3 (0,0,0) * Time.deltaTime * 5f);
             Physics.gravity = new Vector3(0, -20, 0);
 
         }
         if (collision.gameObject.tag == "BoundaryRight"){
-            transform.position = new Vector3 (10f,transform.position.y,transform.position.z);
             canMove = false;
+            transform.position = new Vector3 (10f,transform.position.y,transform.position.z);
+
             Physics.gravity = new Vector3(0, -20, 0);
         }
         if (collision.gameObject.tag == "BoundaryFar"){
@@ -259,7 +263,7 @@ public class Player : MonoBehaviour
             Physics.gravity = new Vector3(0, -20, 0);
         }
         if (collision.gameObject.tag == "BoundaryDown"){
-            Destroy(this);
+            GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             restart.SetActive(true);
         }
     }

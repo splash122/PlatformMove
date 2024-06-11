@@ -10,6 +10,7 @@ public class CoinsManager : MonoBehaviour
     public static int neededCount;
     public float resultProgress;
     public GameManager gameManager;
+
     // Start is called before the first frame update
 
     void Start()
