@@ -220,6 +220,7 @@ public class Player : MonoBehaviour
                 int y = SceneManager.GetActiveScene().buildIndex;
                 print("Current Scene number");
                 print(y);
+                PlayerPrefs.SetInt("LevelPassedNumber", y);
                 SceneManager.LoadScene("Lobby");
             }
             else
