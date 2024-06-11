@@ -173,6 +173,7 @@
           <content url="file://$USER_HOME$/PlatformMove/Assets/BackGround.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/BackGround.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CloseButton.cs" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CloseButton.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CoinButton.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CoinButton.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/HeroSkinsBuy.cs" />
@@ -205,6 +206,8 @@
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/GameManager.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/HeroWindowController.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/HeroWindowController.cs.meta" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/LobbyWindowManager.cs" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/LobbyWindowManager.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Player/ChangeHeroes.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Player/ChangeHeroes.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Player/Player.cs" />

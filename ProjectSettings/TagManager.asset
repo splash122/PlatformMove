@@ -33,6 +33,7 @@ TagManager:
   - HeroController
   - CanvasCamera
   - PlayerParent
+  - Check1Lvl
   layers:
   - Default
   - TransparentFX

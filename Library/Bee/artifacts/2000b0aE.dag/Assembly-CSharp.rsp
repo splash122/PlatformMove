@@ -395,6 +395,7 @@
 "Assets/Scripts/Managers/CoinsSkinManager.cs"
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/HeroWindowController.cs"
+"Assets/Scripts/Managers/LobbyWindowManager.cs"
 "Assets/Scripts/Player/ChangeHeroes.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
