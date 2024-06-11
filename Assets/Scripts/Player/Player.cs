@@ -230,19 +230,17 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.tag == "Thing")
         {
-            //Physics.gravity = new Vector3(0, -20, 0);
+            Destroy(collision.gameObject);
             print("collisionHappened");
             canMove = false;
-            GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = true;
+            //GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = true;
             GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             //thingsBehavior.ParticlesPlay();
             restart.SetActive(true);
         }
         if (collision.gameObject.tag == "BoundaryLeft"){
             canMove = false;
-            //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             transform.position = new Vector3 (-10f,transform.position.y,transform.position.z);
-            //player.MovePosition(transform.position + new Vector3 (0,0,0) * Time.deltaTime * 5f);
             Physics.gravity = new Vector3(0, -20, 0);
 
         }

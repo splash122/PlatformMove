@@ -6,6 +6,7 @@ public class CloseButton : MonoBehaviour
 {
     public GameObject settings;
     public GameObject ads;
+    public GameObject[] things;
 
     void Start()
     {
@@ -16,6 +17,13 @@ public class CloseButton : MonoBehaviour
     public void CloseSettings()
     {
         GameObject.FindWithTag("Player").GetComponent<Player>().canMove = true;
+        GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = false;
+        things = GameObject.FindGameObjectsWithTag("Thing");
+
+        foreach (GameObject thing in things)
+        {
+            thing.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+        }
         settings.SetActive(false);
     }
 
