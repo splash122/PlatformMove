@@ -18,6 +18,7 @@ public class ResumeButton : MonoBehaviour
         //GameObject.FindWithTag("Thing").GetComponent<Rigidbody>().isKinematic = false;
         GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = false;
         GameObject.FindWithTag("Player").GetComponent<Player>().canMove = true;
+        GameObject.FindWithTag("Player").GetComponent<Rigidbody>().position = new Vector3(0,0,0);
 
     }
 }
