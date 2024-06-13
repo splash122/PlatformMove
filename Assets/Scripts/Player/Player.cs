@@ -40,17 +40,22 @@ public class Player : MonoBehaviour
     public SoundsSettings soundsSettings;
     public bool isOnSounds;
     public ChangeHeroes changeHeroes;
+    public GameObject enoughText;
+    public GameObject notEnoughText;
+    public GameObject endLevelWindow;
 
 
     void Start()
     {
+        endLevelWindow = GameObject.Find("/CoinsEnough");
         coinsSound = GameObject.Find("Sounds").GetComponent<AudioSource>();
         playGameObj = GetComponent<Player>();
         player = GetComponent<Rigidbody>();
         restart = GameObject.FindWithTag("Restart");
-        resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
+        resume = GameObject.Find("/CoinsNotEnough");
         restart.SetActive(false);
         resume.SetActive(false);
+        endLevelWindow.SetActive(false);
         isOn = musicSettings.intToBool(PlayerPrefs.GetInt("currentMusic", 1));
         isOnSounds = soundsSettings.intToBool(PlayerPrefs.GetInt("currentSound", 1));
         print("Loading music from prefs");
@@ -193,6 +198,13 @@ public class Player : MonoBehaviour
             }
             //canMove = true;
         }
+        if(resume.activeInHierarchy)
+        {
+            if(CoinsManager.coinsCount >= CoinsManager.neededCount)
+            {
+                coinsToNeededCompare();
+            }
+        }
     }
 
 
@@ -200,34 +212,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "HouseMain")
         {
-            Physics.gravity = new Vector3(0, -20, 0);
-            canMove = false;
-            //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
-            print("collisionHappened");
-            if (CoinsManager.coinsCount < CoinsManager.neededCount)
-            {
-                print(CoinsManager.coinsCount);
-                print(CoinsManager.neededCount);
-                resume.SetActive(true);
-            }
-            else if (CoinsManager.coinsCount >= CoinsManager.neededCount)
-            {
-
-
-                print(CoinsManager.coinsCount);
-                print(CoinsManager.neededCount);
-                coinsText.DecrementCoins();
-                int y = SceneManager.GetActiveScene().buildIndex;
-                print("Current Scene number");
-                print(y);
-                PlayerPrefs.SetInt("LevelPassedNumber", y);
-                SceneManager.LoadScene("Lobby");
-            }
-            else
-            {
-                print(CoinsManager.coinsCount);
-                print(CoinsManager.neededCount);
-            }
+            coinsToNeededCompare();
         }
         if (collision.gameObject.tag == "Thing")
         {
@@ -288,6 +273,39 @@ public class Player : MonoBehaviour
             print(gainedSkinsCoins);
         }
     }
-    
+
+    void coinsToNeededCompare(){
+        Physics.gravity = new Vector3(0, -20, 0);
+        canMove = false;
+        //GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
+        print("collisionHappened");
+        if (CoinsManager.coinsCount < CoinsManager.neededCount)
+        {
+            resume.SetActive(true);
+            endLevelWindow.SetActive(false);
+            print(CoinsManager.coinsCount);
+            print(CoinsManager.neededCount);
+        }
+        else if (CoinsManager.coinsCount >= CoinsManager.neededCount)
+        {
+            resume.SetActive(false);
+            endLevelWindow.SetActive(true);
+            print(CoinsManager.coinsCount);
+            print(CoinsManager.neededCount);
+            canMove = false;
+            GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
+            coinsText.DecrementCoins();
+            int y = SceneManager.GetActiveScene().buildIndex;
+            print("Current Scene number");
+            print(y);
+            PlayerPrefs.SetInt("LevelPassedNumber", y);
+
+        }
+        else
+        {
+            print(CoinsManager.coinsCount);
+            print(CoinsManager.neededCount);
+        }
+    }
 
 }

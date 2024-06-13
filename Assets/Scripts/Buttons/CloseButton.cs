@@ -6,12 +6,14 @@ public class CloseButton : MonoBehaviour
 {
     public GameObject settings;
     public GameObject ads;
+    public GameObject nextLevel;
     public GameObject[] things;
 
     void Start()
     {
         settings = GameObject.FindWithTag("Settings");
-        ads = GameObject.FindWithTag("CoinsNotEnoughWindow");
+        ads = GameObject.Find("/CoinsNotEnough");
+        nextLevel = GameObject.Find("/CoinsEnough");
     }
 
     public void CloseSettings()
@@ -31,5 +33,11 @@ public class CloseButton : MonoBehaviour
     {
         GameObject.FindWithTag("Player").GetComponent<Player>().canMove = true;
         ads.SetActive(false);
+    }
+
+    public void CloseNextLevel()
+    {
+        GameObject.FindWithTag("Player").GetComponent<Player>().canMove = true;
+        nextLevel.SetActive(false);
     }
 }
