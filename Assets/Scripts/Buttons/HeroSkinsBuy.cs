@@ -14,17 +14,19 @@ public class HeroSkinsBuy : MonoBehaviour
 
     public void DefaultHeroSkinsBuy(){
         heroName = "Player";
-        coinsSkinManager.DecrementIfSkinBought(gameManager.firstSkinPrice, heroName);
+        //coinsSkinManager.DecrementIfSkinBought(gameManager.firstSkinPrice, heroName);
     }
 
     public void SecondHeroSkinsBuy(){
         heroName = "Boy";
         coinsSkinManager.DecrementIfSkinBought(gameManager.secondSkinPrice, heroName);
 
+
     }
     public void ThirdHeroSkinsBuy(){
         heroName = "Policeman";
         coinsSkinManager.DecrementIfSkinBought(gameManager.thirdSkinPrice, heroName);
+
     }
 
 

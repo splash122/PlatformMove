@@ -21,13 +21,14 @@ public class ChangeHeroes : MonoBehaviour
         resume = GameObject.FindWithTag("CoinsNotEnoughWindow");
         //restart.SetActive(false);
         //resume.SetActive(false);
-        string hero = PlayerPrefs.GetString("Hero", "Player");
+        string hero = PlayerPrefs.GetString("HeroChosen", "Player");
         print("Hero");
         print(hero);
         allchildren = new Transform[parentObject.transform.childCount];
         for (int i = 0; i < allchildren.Length; i++) {
             allchildren[i] = parentObject.transform.GetChild(i);
             if (allchildren[i].name == hero) {
+                PlayerPrefs.SetString("HeroChosen", hero);
             }
             else {
                 allchildren[i].gameObject.SetActive(false);
