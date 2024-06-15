@@ -111,7 +111,7 @@ public class CoinsCarManager : MonoBehaviour
         defaultBack.SetActive(false);
         car2Back.SetActive(false);
         car3Back.SetActive(true);
-        PlayerPrefs.SetString("Car3Chosen", "Car3");
+        PlayerPrefs.SetString("CarChosen", "Car3");
         print("Car3 was chosen");
 
     }

@@ -14,7 +14,8 @@ public class ChangeHeroes : MonoBehaviour
     //public GameObject[] myPrefab;
     public Transform parentObject;
     public Transform[] allchildren;
-
+    public Transform parentCarObject;
+    public Transform[] allCarchildren;
     // This script will simply instantiate the Prefab when the game starts.
     void Start() {
         restart = GameObject.FindWithTag("Restart");
@@ -32,6 +33,20 @@ public class ChangeHeroes : MonoBehaviour
             }
             else {
                 allchildren[i].gameObject.SetActive(false);
+            }
+        }
+
+        string car = PlayerPrefs.GetString("CarChosen", "CarDefault");
+        print("Car");
+        print(car);
+        allCarchildren = new Transform[parentCarObject.transform.childCount];
+        for (int i = 0; i < allCarchildren.Length; i++) {
+            allCarchildren[i] = parentCarObject.transform.GetChild(i);
+            if (allCarchildren[i].name == car) {
+                PlayerPrefs.SetString("CarChosen", car);
+            }
+            else {
+                allCarchildren[i].gameObject.SetActive(false);
             }
         }
 

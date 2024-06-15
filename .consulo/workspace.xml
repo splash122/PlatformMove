@@ -4,46 +4,26 @@
     <list default="true" id="90e67667-0025-495b-99a8-1b830d7ddd97" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.ref.dll" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.ref.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.consulo/modules.xml" afterPath="$PROJECT_DIR$/.consulo/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.consulo/workspace.xml" afterPath="$PROJECT_DIR$/.consulo/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level1.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Skins/BackSkinsWindow.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Skins/BackSkinsWindow.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Skins/BackSkinsWindow.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/Skins/BackSkinsWindow.unity.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Skins/CarSkinsWindow.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Skins/CarSkinsWindow.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Skins/CarSkinsWindow.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/Skins/CarSkinsWindow.unity.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Skins/GroundSkinsWindow.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Skins/GroundSkinsWindow.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Skins/GroundSkinsWindow.unity.meta" afterPath="$PROJECT_DIR$/Assets/Scenes/Skins/GroundSkinsWindow.unity.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons/RestartButton.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/RestartButton.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsSkinManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsSkinManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE-inputdata.json" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE-inputdata.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.json" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.payloads" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag.payloads" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag_derived" afterPath="$PROJECT_DIR$/Library/Bee/2000b0aE.dag_derived" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsCarManager.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsCarManager.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/backend1.traceevents" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/backend2.traceevents" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" afterPath="$PROJECT_DIR$/Library/LastSceneManagerSetup.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/Search/transactions.db" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/SourceAssetDB" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a4/a44b8e622011ba84e26f36e4a1421315.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/cc/cc1aebfb2337ed5c29cb1283dab55aee.json" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/cc/cc1aebfb2337ed5c29cb1283dab55aee.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler-0.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.InspectorWindow.pref" afterPath="$PROJECT_DIR$/Library/UIElements/EditorWindows/UnityEditor.InspectorWindow.pref" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,14 +62,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/LevelText.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -114,16 +86,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/CloseButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/PlayButton.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -138,16 +100,6 @@
           <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -200,6 +152,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/RestartButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/CloseButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -210,26 +188,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/RestartButton.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="190">
+          <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="543">
+          <caret line="48" column="62" lean-forward="true" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CarWindowController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="410">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -246,7 +226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CoinsSkinManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="-175">
           <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -256,8 +236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CoinsCarManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        <state relative-caret-position="461">
+          <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -267,35 +247,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HeroSkinsBuy.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/HeroSkinsBuy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarSkinsBuy.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/CarSkinsBuy.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="44" column="37" lean-forward="false" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+            <state relative-caret-position="190">
+              <caret line="58" column="48" lean-forward="false" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeHeroes.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="48" column="62" lean-forward="true" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResumeButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="97" lean-forward="false" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -316,8 +294,8 @@
       <file leaf-file-name="CarWindowController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CarWindowController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="410">
+              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -338,7 +316,7 @@
       <file leaf-file-name="CoinsSkinManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CoinsSkinManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="-175">
               <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -350,8 +328,8 @@
       <file leaf-file-name="CoinsCarManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Managers/CoinsCarManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+            <state relative-caret-position="461">
+              <caret line="110" column="37" lean-forward="true" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -369,12 +347,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Progressbar1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/Progressbar1.cs">
+      <file leaf-file-name="CloseButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/CloseButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="461">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -395,6 +375,8 @@
       <find>canmo</find>
       <find>gai</find>
       <find>gained</find>
+      <find>PlayerPre</find>
+      <find>playe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -427,7 +409,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Buttons/CloseButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/LobbyWindowManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/HeroWindowController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/CarSkinsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Buttons/HeroSkinsBuy.cs" />
@@ -437,12 +418,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Buttons/RestartButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsSkinManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ChangeHeroes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/CoinsCarManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="457" />
+    <option name="x" value="455" />
     <option name="y" value="25" />
     <option name="width" value="1122" />
     <option name="height" value="929" />
@@ -805,15 +787,15 @@
       <workItem from="1718023551469" duration="21097000" />
       <workItem from="1718100591207" duration="9262000" />
       <workItem from="1718114715773" duration="10707000" />
-      <workItem from="1718282188679" duration="38944000" />
+      <workItem from="1718282188679" duration="41742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159807000" />
+    <option name="totallyTimeSpent" value="162605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="457" y="25" width="1122" height="929" extended-state="0" />
+    <frame x="455" y="25" width="1122" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31194296" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
