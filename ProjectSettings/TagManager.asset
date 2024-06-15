@@ -38,6 +38,7 @@ TagManager:
   - Boy
   - Policeman
   - Default
+  - Check2Lvl
   layers:
   - Default
   - TransparentFX

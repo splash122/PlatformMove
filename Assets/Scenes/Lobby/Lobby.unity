@@ -1226,6 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkLvl1: {fileID: 910324382}
+  checkLvl2: {fileID: 0}
   buttonLvl2: {fileID: 0}
 --- !u!1 &758136832
 GameObject:
@@ -1471,7 +1472,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4, y: 0.4}
   m_AnchorMax: {x: 0.6, y: 0.6}
-  m_AnchoredPosition: {x: -4.3, y: -0.2}
+  m_AnchoredPosition: {x: -4.3, y: -0.19999999}
   m_SizeDelta: {x: 4, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910324384
@@ -1875,7 +1876,7 @@ GameObject:
   - component: {fileID: 1272577100}
   m_Layer: 5
   m_Name: Check2Lvl
-  m_TagString: Check1Lvl
+  m_TagString: Check2Lvl
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1896,7 +1897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4, y: 0.4}
   m_AnchorMax: {x: 0.6, y: 0.6}
-  m_AnchoredPosition: {x: -4.4, y: -0.2}
+  m_AnchoredPosition: {x: -4.4, y: -0.19999999}
   m_SizeDelta: {x: 4, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272577100
