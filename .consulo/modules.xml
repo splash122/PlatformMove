@@ -172,6 +172,8 @@
           <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_10_0" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/BackGround.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/BackGround.cs.meta" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CarSkinsBuy.cs" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CarSkinsBuy.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CloseButton.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CloseButton.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Buttons/CoinButton.cs" />
@@ -198,6 +200,10 @@
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Ground/CubeExample.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Ground/CubeMover.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Ground/CubeMover.cs.meta" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CarWindowController.cs" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CarWindowController.cs.meta" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CoinsCarManager.cs" />
+          <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CoinsCarManager.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CoinsManager.cs" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CoinsManager.cs.meta" />
           <content url="file://$USER_HOME$/PlatformMove/Assets/Scripts/Managers/CoinsSkinManager.cs" />

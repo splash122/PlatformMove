@@ -293,7 +293,6 @@ public class Player : MonoBehaviour
             print(CoinsManager.coinsCount);
             print(CoinsManager.neededCount);
             canMove = false;
-            GameObject.FindWithTag("Player").GetComponent<Rigidbody>().isKinematic = true;
             coinsText.DecrementCoins();
             int y = SceneManager.GetActiveScene().buildIndex;
             print("Current Scene number");

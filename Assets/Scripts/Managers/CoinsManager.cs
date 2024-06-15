@@ -41,7 +41,6 @@ public class CoinsManager : MonoBehaviour
 
     public void DecrementIfRestart()
     {
-        //coinsCount -= GameObject.FindWithTag("Player").GetComponent<Player>().gainedCoins;
         coinsCount = 0;
         resultProgress = Mathf.Round(coinsCount)/Mathf.Round(neededCount);
         progressbar1.IncrementProgress(resultProgress);

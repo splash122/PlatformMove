@@ -5729,6 +5729,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7db322408c9314da49f1db0d8ffe32f0, type: 3}
   m_PrefabInstance: {fileID: 367219097}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &294216488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5467656088984574813, guid: d36eeb64d32044951b675f0114b79b16, type: 3}
+  m_PrefabInstance: {fileID: 7774259019388750135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &305171818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6574,7 +6579,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75acee930448c48a9938ab83ae2de9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsmanager: {fileID: 1697764483}
+  coinsManager: {fileID: 1697764483}
+  coinsSkinManager: {fileID: 567720933}
 --- !u!1001 &435439689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9129,6 +9135,9 @@ MonoBehaviour:
   firstSkinPrice: 0
   secondSkinPrice: 10
   thirdSkinPrice: 20
+  firstCarPrice: 0
+  secondCarPrice: 0
+  thirdCarPrice: 0
 --- !u!4 &1143048929
 Transform:
   m_ObjectHideFlags: 0
@@ -18060,7 +18069,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75acee930448c48a9938ab83ae2de9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinsmanager: {fileID: 1697764483}
+  coinsManager: {fileID: 1697764483}
+  coinsSkinManager: {fileID: 567720933}
 --- !u!114 &2114660243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18565,6 +18575,10 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1143048928}
+    - target: {fileID: 418308241077118794, guid: c1bd30b8f3f59450dbe0a3ace02ef09a, type: 3}
+      propertyPath: textNotEnough
+      value: 
+      objectReference: {fileID: 294216488}
     - target: {fileID: 1850742980743012498, guid: c1bd30b8f3f59450dbe0a3ace02ef09a, type: 3}
       propertyPath: m_Pivot.x
       value: 0

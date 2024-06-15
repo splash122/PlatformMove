@@ -10,5 +10,10 @@ public class GameManager : MonoBehaviour
     public int firstSkinPrice;
     public int secondSkinPrice;
     public int thirdSkinPrice;
+
+    public int firstCarPrice;
+    public int secondCarPrice;
+    public int thirdCarPrice;
+
    
 }

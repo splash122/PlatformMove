@@ -7,7 +7,7 @@ public class CoinsSkinManager : MonoBehaviour
     private GameObject coinsSkin;
     public GameObject textNotEnough;
     public Text skinsText;
-    public static int skinsCount = 0;
+    public static int skinsCount;
     //public int skinsCount = 0;
     private float resultProgress;
     public GameManager gameManager;
@@ -26,6 +26,7 @@ public class CoinsSkinManager : MonoBehaviour
 
     void Start()
     {
+        skinsCount = PlayerPrefs.GetInt("CurrentSkinCoins", 0);
         coinsSkin = GameObject.FindWithTag("Coin");
         resultProgress = Mathf.Round(skinsCount);
         skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
@@ -46,6 +47,7 @@ public class CoinsSkinManager : MonoBehaviour
 
         skinsCount += 1;
         skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
+        PlayerPrefs.SetInt("CurrentSkinCoins", skinsCount);
     }
 
     public void DecrementIfSkinBought(int coinsForSkin, string heroName)
@@ -57,6 +59,7 @@ public class CoinsSkinManager : MonoBehaviour
             resultProgress = Mathf.Round(skinsCount);
             skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
             CheckNewButtonActive(heroName);
+            PlayerPrefs.SetInt("CurrentSkinCoins", skinsCount);
         }
         else{
             print("No money");
@@ -123,5 +126,9 @@ public class CoinsSkinManager : MonoBehaviour
     {
         skinsCount += 1;
         skinsText.text = "Монеты: " + Mathf.Round(skinsCount);
+        PlayerPrefs.SetInt("CurrentSkinCoins", skinsCount);
     }
+
+
+
 }
